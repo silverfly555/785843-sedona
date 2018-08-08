@@ -1,10 +1,9 @@
 # Личный проект «Седона»
 
 * Студент: [Владимир Шульц](https://up.htmlacademy.ru/htmlcss/22/user/785843).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Попенко].
 
 ---
-
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
