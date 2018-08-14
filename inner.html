@@ -27,7 +27,7 @@
     </header>
     <main>
       <section class="search-inner">
-        <form class="" action="" method="post">
+        <form class="search" action="???" method="post">
           <fieldset>
             <legend>Инфраструктура:</legend>
             <label for="pool">бассей</label>
@@ -45,18 +45,21 @@
             <input type="checkbox" name="type-housing" id="Motel"checked>
             <label for="apartment">апартаменты</label>
             <input type="checkbox" name="type-housing" id="apartment"checked>
+            <label for="cost">Стоимость в сутки (Р):</label>
+            0 <input type="range" id="cost" min="0" max="3000" value="2500"> 3000
             <input type="submit" value="показать">
           </fieldset>
         </form>
       </section>
       <div class="find">
         <p>Найдено:</p>
+        <output name="find"></output>
         <p>сортировка:</p>
         <a class="" href="#">По цене</a>
         <a class="" href="#">По типу</a>
         <a class="" href="#">По рейтингу</a>
-        <a class="" href="#">кнопка вверх</a>
-        <a class="" href="#">кнопка вниз</a>
+        <input type="button" value="Кнопка вверх">
+        <input type="button" value="Кнопка вниз">
       </div>
       <div class="search-result">
         <figure>
