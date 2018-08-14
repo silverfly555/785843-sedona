@@ -99,33 +99,20 @@
       </section>
       <strong>Заинтересовались?</strong>
       <p>
-        укажите предполагаемые даты поездки, <br>
+        Укажите предполагаемые даты поездки, <br>
         и мы покажем вам лучшие предложения гостиницы в седоне
       </p>
 
-      <!-- Здесь будет форма поиска -->
-      <form class="" action="???" method="post">
-
-      </form>
-      <h3>поиск гостиницы в седоне</h3>
-      <form action="" method="post">
-        <label for="date-arrival">
-          дата заезда:
-        </label>
-        <input type="text" name="search" id="date-arrival">
-        <label for="date-departure">
-          дата выезда:
-        </label>
-        <input type="text" name="search" id="date-departure">
-        <input type="text" name="search" id="date-arrival">
-        <label for="grownup">
-          взрослые:
-        </label>
-        <input type="text" name="search" id="grownup">
-        <label for="children">
-          дети:
-        </label>
-        <input type="text" name="search" id="children">
+      <form action="???" name="reserve" method="post">
+        <h3>Поиск гостиницы в седоне</h3>
+        <label for="date-arrival">дата заезда:</label>
+        <input type="date" name="date-ar" id="date-arrival" src="img/svg-sedona/calendar.svg">
+        <label for="date-departure">дата выезда:</label>
+        <input type="date" name="date-de" id="date-departure">
+        <label for="grownup">взрослые:</label>
+        <input type="number" name="grown" id="grownup">
+        <label for="children">дети:</label>
+        <input type="number" name="child" id="children">
         <input type="submit" value="найти">
       </form>
 
