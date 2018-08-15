@@ -27,10 +27,8 @@
     </header>
     <main>
       <section class="welcome">
-        <!-- Здесь планируется реализовать фоновое изображение. Я так полагаю возможно это будет через CSS -->
-
-<!-- Фоновые изображения действительно вставляются с помощью css. Но Это изображение не фоновое, а контентное. Значит оно должно фигурировать в разметке (тег img). -->
-
+        <img src="img/background-photo.jpg" width="1200"
+          height="800" alt="Логотип">
       </section>
       <section class="features-list">
         <h1>седона - небольшой городок в аризоне, <br>
@@ -50,22 +48,16 @@
       </section>
       <ul class="benefits">
         <li>
-<!-- Это декоративные изображения. Их будем вставлять с помощью псевдоэлемента через css -->
-          <img src="img/svg-sedona/icon-1.svg" width="75"
             height="72" alt="жилье">
           <p><b>Жилье</b></p>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </li>
         <li>
-<!-- Это декоративные изображения. Их будем вставлять с помощью псевдоэлемента через css -->
-          <img src="img/svg-sedona/icon-3.svg" width="64"
             height="76" alt="еда">
           <p><b>ЕДА</b></p>
           <p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
         </li>
         <li>
-<!-- Это декоративные изображения. Их будем вставлять с помощью псевдоэлемента через css -->
-          <img src="img/svg-sedona/icon-2.svg" width="74"
             height="70" alt="сувениры">
           <p><b>СУВЕНИРЫ</b></p>
           <p>Не только китайского, но и местного производства!</p>
@@ -101,25 +93,26 @@
           </li>
         </ul>
       </section>
-      <strong>Заинтересовались?</strong>
-      <p>
-        Укажите предполагаемые даты поездки, <br>
-        и мы покажем вам лучшие предложения гостиницы в седоне
-      </p>
 
-<!-- "Поиск гостиницы в седоне" это кнопка (тег button), она должна открывать и закрывать форму (см ТЗ). Размещаться должна не внутри формы, а перед ней. Также для блока с формой есть смысл сделать свой section (начиная с "Заинтересовались" и заканчивая формой-->
-      <form action="???" name="reserve" method="post">
-        <h3>Поиск гостиницы в седоне</h3>
-        <label for="date-arrival">дата заезда:</label>
-        <input type="date" name="date-ar" id="date-arrival" src="img/svg-sedona/calendar.svg">
-        <label for="date-departure">дата выезда:</label>
-        <input type="date" name="date-de" id="date-departure">
-        <label for="grownup">взрослые:</label>
-        <input type="number" name="grown" id="grownup">
-        <label for="children">дети:</label>
-        <input type="number" name="child" id="children">
-        <input type="submit" value="найти">
-      </form>
+      <section class="search-hotel">
+        <strong>Заинтересовались?</strong>
+        <p>
+          Укажите предполагаемые даты поездки, <br>
+          и мы покажем вам лучшие предложения гостиницы в седоне
+        </p>
+        <button type="button" name="button">Поиск гостиницы в седоне</button>
+        <form action="???" name="reserve" method="post">
+          <label for="date-arrival">дата заезда:</label>
+          <input type="date" name="date-ar" id="date-arrival" src="img/svg-sedona/calendar.svg">
+          <label for="date-departure">дата выезда:</label>
+          <input type="date" name="date-de" id="date-departure">
+          <label for="grownup">взрослые:</label>
+          <input type="number" name="grown" id="grownup">
+          <label for="children">дети:</label>
+          <input type="number" name="child" id="children">
+          <input type="submit" value="найти">
+        </form>
+      </section>
 
     </main>
     <footer class="main-footer">
