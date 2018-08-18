@@ -45,9 +45,23 @@
             <input type="checkbox" name="type-housing" id="Motel"checked>
             <label for="apartment">апартаменты</label>
             <input type="checkbox" name="type-housing" id="apartment"checked>
-            <label for="cost">Стоимость в сутки (Р):</label>
-            0 <input type="range" id="cost" min="0" max="3000" value="2500"> 3000
-            <button type="button" name="button" aria-label="Показать результаты выбора">показать</button>
+            <fieldset>
+              <legend><label for="cost">Стоимость в сутки (Р):</label></legend>
+              <div class="range-filter">
+                <div class="range-controls">
+                  <div class="price-controls">
+                    <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+                    <label class="max-price">до <input name="max-price" type="text" value="3000"></label>
+                  </div>
+                  <div class="scale">
+                    <div class="bar" style="margin-left: 20%; width: 30%"></div>
+                  </div>
+                  <div class="toggle toggle-min"></div>
+                  <div class="toggle toggle-max"></div>
+                </div>
+              </div>
+              <button type="button" name="button" aria-label="Показать результаты выбора">показать</button>
+            </fieldset>
           </fieldset>
         </form>
       </section>
@@ -112,8 +126,10 @@
             <li><a class="social-button" href="#" aria-label="Ютуб">youtube</a></li>
           </ul>
         </div>
-        <div class="">
-          <a href="#">visit by html academy</a>
+        <div class="logo-footer">
+          <a href="https://htmlacademy.ru/intensive/htmlcss">
+            visit by <img src="img/logo-name.png" alt="Логотип">
+          </a>
         </div>
       </footer>
     </body>
