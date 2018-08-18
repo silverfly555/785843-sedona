@@ -11,16 +11,16 @@
         height="72" alt="Логотип"></a>
         <ul>
           <li>
-            <a href="#" alt="информация">информация</a>
+            <a href="#" title="информация">информация</a>
           </li>
           <li>
-            <a href="#" alt="фото и видео">фото и видео</a>
+            <a href="#" title="фото и видео">фото и видео</a>
           </li>
           <li>
-            <a href="#" alt="карта штата">карта штата</a>
+            <a href="#" title="карта штата">карта штата</a>
           </li>
           <li>
-            <a href="#"  alt="гостиницы">гостиницы</a>
+            <a href="#"  title="гостиницы">гостиницы</a>
           </li>
         </ul>
       </nav>
@@ -69,11 +69,15 @@
         <p>Найдено:</p>
         <output name="find"></output>
         <p>сортировка:</p>
-        <a class="" href="#">По цене</a>
-        <a class="" href="#">По типу</a>
-        <a class="" href="#">По рейтингу</a>
-        <input type="button" value="Кнопка вверх">
-        <input type="button" value="Кнопка вниз">
+        <a class="price" href="#">По цене</a>
+        <a class="type" href="#">По типу</a>
+        <a class="rating" href="#">По рейтингу</a>
+        <button class="up" type="button" name="up-dir">
+          <img src="img/svg-sedona/icon-up-dir.svg" alt="">
+        </button>
+        <button class="down" type="button" name="down-dir">
+          <img src="img/svg-sedona/icon-down-dir.svg" alt="">
+        </button>
       </div>
       <div class="search-result">
         <figure>
@@ -128,7 +132,7 @@
         </div>
         <div class="logo-footer">
           <a href="https://htmlacademy.ru/intensive/htmlcss" title="лендинг интенсива «Профессиональный HTML и CSS, уровень 1».">
-            visit by <img src="img/logo-name.png" alt="Логотип">
+            visit by <img src="img/logo-name.png" alt="Логотип htmlacademy">
           </a>
         </div>
       </footer>
