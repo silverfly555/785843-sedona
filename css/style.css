@@ -23,29 +23,14 @@ nav ul,
 }
 
 .navigation a:focus {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: bold;
   color: #766357;
 }
 
 .navigation a:hover {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: bold;
   color: #81b3d2;
 }
 
 .navigation a:active {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: bold;
   color: #ff0000;
 }
 
@@ -189,11 +174,12 @@ button.button-search {
 }
 
 button.calendar {
-  background-image: url(../img/svg-sedona/calendar.svg);
+  background-image: url(../img/calendar.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 21px;
   height: 22px;
+  border: none;
 }
 
 button.minus {
@@ -403,19 +389,47 @@ button.button-find {
 }
 
 .up {
+  height: 20px;
   background: transparent;
   border: none;
+  background-image: url(../img/svg-sedona/icon-up-dir2.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+
+.up:hover {
+  height: 20px;
+  background: transparent;
+  border: none;
+  background-image: url(../img/svg-sedona/icon-up-dir3.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
 }
 
 .down {
+  height: 20px;
   background: transparent;
   border: none;
+  background-image: url(../img/svg-sedona/icon-down-dir2.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+
+.down:hover {
+  height: 20px;
+  background: transparent;
+  border: none;
+  background-image: url(../img/svg-sedona/icon-down-dir3.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
 }
 
 .info-search h3 {
   font-size: 21px;
   line-height: 26px;
 }
+
+
 
 .info-search p {
   font-size: 14px;
@@ -448,4 +462,27 @@ button.button-find {
   background-color: #f2f2f2;
   text-align: center;
   vertical-align: middle;
+}
+
+a.name-hotel {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+a.name-hotel:focus {
+ color: red;
+}
+
+ a.name-hotel:hover {
+  color: #81b3d2;
+}
+
+
+
+ a.name-hotel:active {
+  color: #b2b2b2;
 }
