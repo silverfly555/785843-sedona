@@ -1,38 +1,54 @@
 body {
   text-transform: uppercase;
   color: #000000;
-
+  font-size: 14px;
 }
-ul {
+
+nav ul,
+.footer-social ul,
+.benefits2 ul,
+.benefits1 ul {
   list-style-type: none;
 }
 
-a {
+nav a
+{
   text-decoration: none;
   font-weight: bold;
-  color: #000000;
 }
-nav a {
-  font-size: 14px;
+
+.soc-but a {
+  text-decoration: none;
 }
-h1, h2 {
+
+.logo-footer a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.features-list h1,
+.realtown h2,
+.devil-bridge h2,
+.benefits2 h2 {
   font-size: 21px;
 }
-p {
-  font-size: 14px;
+.features-list p,
+.benefits2 p {
   color: #b3b3b3;
 }
-b {
-  font-size: 21px;
-  color: #000000;
+
+.realtown p,
+.devil-bridge p {
+  color: white;
 }
+
+.benefits1 b {
+  font-size: 21px;
+}
+
 .realtown,
 .devil-bridge {
   background-color: #81b3d2;
-  color: white;
-}
-.realtown p,
-.devil-bridge p {
   color: white;
 }
 
