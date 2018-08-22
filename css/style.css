@@ -72,6 +72,17 @@ nav ul,
   left: 110%;
 }
 
+.logo-footer a::after:hover {
+  content:"";
+  position: absolute;
+  width: 115px;
+  height: 41px;
+  background-image: url(../img/logo-name-blue.png);
+  background-repeat: no-repeat;
+  top: -10px;
+  left: 110%;
+}
+
 .logo-foot {
   font-size: 14px;
   line-height: 26px;
@@ -173,8 +184,37 @@ button.button-search {
   line-height: 26px;
 }
 
+button.button-search:hover {
+  background-color: #604e43;
+}
+
+button.button-search:active {
+  color: #857871;
+  background-color: #503e33;
+}
+
 button.calendar {
+  background: transparent;
   background-image: url(../img/calendar.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 21px;
+  height: 22px;
+  border: none;
+}
+
+button.calendar:hover {
+  background: transparent;
+  background-image: url(../img/calendar-black.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 21px;
+  height: 22px;
+  border: none;
+}
+button.calendar:active {
+  background: transparent;
+  background-image: url(../img/calendar-blue.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 21px;
@@ -200,6 +240,15 @@ button.button-find {
   text-transform: uppercase;
   font-size: 21px;
   line-height: 26px;
+}
+
+button.button-find:hover {
+  background-color: #669ec0;
+}
+
+button.button-find:active {
+  color: #88b6d1;
+  background-color: #5496bd;
 }
 
 .visit {
@@ -280,6 +329,16 @@ button.button-find {
   width: 46px;
   height: 48px;
   font-size: 0;
+}
+
+.social-button a:hover {
+  background-color: #669ec0;
+}
+
+.social-button a:active {
+  color: #88b6d1;
+  background-color: #5496bd;
+  opacity: 0.4;
 }
 
 .button-twitter {
@@ -424,13 +483,6 @@ button.button-find {
   background-position: 50% 100%;
 }
 
-.info-search h3 {
-  font-size: 21px;
-  line-height: 26px;
-}
-
-
-
 .info-search p {
   font-size: 14px;
   line-height: 21px;
@@ -446,6 +498,15 @@ button.button-find {
   text-decoration: none;
 }
 
+.detailed:hover {
+  background-color: #669ec0;
+}
+
+.detailed:active {
+  color: #88b6d1;
+  background-color: #5496bd;
+}
+
 .book {
   display: block;
   width: 142px;
@@ -453,6 +514,15 @@ button.button-find {
   color: #ffffff;
   background-color: #766357;
   text-decoration: none;
+}
+
+.book:hover {
+  background-color: #604e43;
+}
+
+.book:active {
+  color: #857871;
+  background-color: #503e33;
 }
 
 .rating-result {
@@ -464,7 +534,7 @@ button.button-find {
   vertical-align: middle;
 }
 
-a.name-hotel {
+.name-hotel {
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
@@ -473,16 +543,10 @@ a.name-hotel {
   color: #000000;
 }
 
-a.name-hotel:focus {
- color: red;
-}
-
- a.name-hotel:hover {
+.name-hotel:hover {
   color: #81b3d2;
 }
 
-
-
- a.name-hotel:active {
+.name-hotel:active {
   color: #b2b2b2;
 }
