@@ -1,9 +1,9 @@
 body {
   font-family: ptsans, Arial, serif
-  text-transform: uppercase;
   font-size: 14px;
   line-height: 26px;
   margin: 0;
+  text-transform: uppercase;
 }
 
 nav ul,
@@ -13,14 +13,40 @@ nav ul,
   list-style: none;
 }
 
-nav a
-{
+.navigation a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
   color: #000000;
+}
+
+.navigation a:focus {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #766357;
+}
+
+.navigation a:hover {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #81b3d2;
+}
+
+.navigation a:active {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ff0000;
 }
 
 .soc-but a {
@@ -35,19 +61,30 @@ nav a
 .main-footer a {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 21px;
   line-height: 26px;
   font-weight: bold;
   color: #000000;
 }
 
 .logo-footer a {
-  text-decoration: none;
-  text-transform: uppercase;
+  position: relative;
   font-size: 14px;
   line-height: 26px;
-  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
   color: #000000;
+}
+
+.logo-footer a::after {
+  content:"";
+  position: absolute;
+  width: 115px;
+  height: 41px;
+  background-image: url(../img/logo-name.png);
+  background-repeat: no-repeat;
+  top: -10px;
+  left: 110%;
 }
 
 .logo-foot {
@@ -63,6 +100,7 @@ nav a
 
 .devil-bridge h2,
 .realtown h2 {
+  text-transform: uppercase;
   font-size: 21px;
   line-height: 21px;
   font-weight: bold;
@@ -153,6 +191,7 @@ button.button-search {
 button.calendar {
   background-image: url(../img/svg-sedona/calendar.svg);
   background-repeat: no-repeat;
+  background-position: 50% 50%;
   width: 21px;
   height: 22px;
 }
@@ -258,26 +297,155 @@ button.button-find {
 }
 
 .button-twitter {
-  padding: auto;
   background-image: url(../img/twit-icon.png);
   background-repeat: no-repeat;
+  background-position: 50% 50%;
   font-size: 0;
 }
 
 .button-facebook {
-  height: 50%;
-  width: 50%;
   background-image: url(../img/fb-icon.png);
   background-repeat: no-repeat;
+  background-position: 50% 50%;
   font-size: 0;
 }
 
 .button-youtube {
   background-image: url(../img/youtube.png);
   background-repeat: no-repeat;
+  background-position: 50% 50%;
   font-size: 0;
 }
 
-.infrastructure {
+}
+.main-footer {
+  display: flex;
+}
+
+.social-button {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+}
+/* Отсюда идет cтилизация inner.html */
+
+.search-inner {
+  background-image: url(../img/filter-background.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 800px;
   color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.infrastructure legend,
+.price-day legend,
+.type-housing legend{
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.show {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  background: transparent;
+}
+.show:hover {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  background: #ffffff;
+}
+
+.find {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.sort {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.price {
+  font-size: 12px;
+  line-height: 18px;
+  color: #81b3d2;
+  text-decoration: none;
+}
+
+.type {
+  font-size: 12px;
+  line-height: 18px;
+  color: #cacaca;
+  text-decoration: none;
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.rating {
+  font-size: 12px;
+  line-height: 18px;
+  color: #cacaca;
+  text-decoration: none;
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.up {
+  background: transparent;
+  border: none;
+}
+
+.down {
+  background: transparent;
+  border: none;
+}
+
+.info-search h3 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.info-search p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #696969;
+}
+
+.detailed {
+  display: block;
+  width: 110px;
+  height: 27px;
+  color: #ffffff;
+  background-color: #81b3d2;
+  text-decoration: none;
+}
+
+.book {
+  display: block;
+  width: 142px;
+  height: 27px;
+  color: #ffffff;
+  background-color: #766357;
+  text-decoration: none;
+}
+
+.rating-result {
+  width: 110px;
+  height: 27px;
+  color: #666666;
+  background-color: #f2f2f2;
+  text-align: center;
+  vertical-align: middle;
 }
