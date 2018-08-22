@@ -1,58 +1,134 @@
 body {
+  font-family: ptsans, Arial, serif
   text-transform: uppercase;
-  color: #000000;
   font-size: 14px;
+  line-height: 26px;
+  margin: 0;
 }
 
 nav ul,
 .footer-social ul,
 .benefits2 ul,
 .benefits1 li {
-  list-style-type: none;
+  list-style: none;
 }
 
 nav a
 {
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
   font-weight: bold;
   color: #000000;
 }
 
 .soc-but a {
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
   color: #000000;
 }
 
 .main-footer a {
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
   color: #000000;
 }
 
 .logo-footer a {
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
   font-weight: bold;
   color: #000000;
 }
 
-.features-list h1,
-.realtown h2,
+.logo-foot {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.features-list h1 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
 .devil-bridge h2,
+.realtown h2 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
 .benefits2 h2 {
   font-size: 21px;
+  line-height: 21px;
 }
-.features-list p,
+
 .benefits2 p {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.devil-bridge p,
+.realtown p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.features-list p {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
   color: #b3b3b3;
+}
+
+.search-hotel p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.search-hotel strong {
+  font-size: 30px;
+  line-height: 36px;
+}
+.search-hotel {
+  text-transform: uppercase;
 }
 
 .realtown p,
 .devil-bridge p {
+  text-transform: uppercase;
   color: white;
 }
 
-.benefits1 b {
+.benefits1-item-title b {
+  text-transform: uppercase;
   font-size: 21px;
+  line-height: 21px;
+  color: #000000;
 }
+
+.benefits1-item-title p:nth-of-type(2) {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+
 
 .realtown,
 .devil-bridge {
@@ -65,12 +141,103 @@ nav a
 }
 
 button.button-search {
+  width: 568px;
+  height: 86px;
   background-color: #766357;
-  color: white;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 26px;
 }
 
 button.calendar {
   background-image: url(img/svg-sedona/calendar.svg) no-repeat;
-  width: 20px;
-  height: 20px;
+  width: 21px;
+  height: 22px;
+}
+
+button.minus {
+  width: 38px;
+  height: 38px;
+  background-image: url(img/svg-sedona/minus.svg);
+}
+
+button.plus {
+  width: 38px;
+  height: 38px;
+  background-image: url(img/svg-sedona/plus.svg);
+}
+
+button.button-find {
+  width: 458px;
+  height: 58px;
+  color: #ffffff;
+  background-color: #81b3d2;
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.visit {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.benefits1 {
+  display: flex;
+  background: #0000;
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+
+.benefits1-item {
+  width: 33.333%;
+  padding: 100px 10px 0;
+  text-align: center;
+  position: relative;
+}
+
+.benefits1-item::after {
+  content:"";
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform:translateX(-50%);
+}
+
+.benefits1-item--housing {
+  background: url(img/svg-sedona/icon-1.svg);
+}
+
+.benefits1-item--food {
+  background: url(img/svg-sedona/icon-2.svg);
+}
+
+.benefits1-item--souvenir {
+  background: url(img/svg-sedona/icon-3.svg);
+}
+
+.benefits1-item-title {
+  margin: 0 0 40px;
+  text-transform: uppercase;
+}
+
+.button-find {
+  width: 458px;
+  height: 411px;
+  color: white;
+  background-color: #81b3d2;
+}
+.visit {
+  font-size: 21px;
+  line-height: 26px;
 }
