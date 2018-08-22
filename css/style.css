@@ -250,18 +250,17 @@ button.button-find {
   background-color: #81b3d2;
 }
 
-.social-button a{
-font-size: 0;
-}
-
 .button-twitter {
   background-image: url(../img/twit-icon.png);
+  background-repeat: no-repeat;
 }
 
 .button-facebook {
   background-image: url(../img/fb-icon.png);
+  background-repeat: no-repeat;
 }
 
 .button-youtube {
 background-image: url(../img/youtube.png);
+background-repeat: no-repeat;
 }
