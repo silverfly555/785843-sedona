@@ -250,31 +250,29 @@ button.button-find {
   background-color: #81b3d2;
 }
 
-.social-button {
+.social-button a {
+  display: block;
   width: 46px;
   height: 48px;
   font-size: 0;
 }
 
 .button-twitter {
-  width: 46px;
-  height: 48px;
+  padding: auto;
   background-image: url(../img/twit-icon.png);
   background-repeat: no-repeat;
   font-size: 0;
 }
 
 .button-facebook {
-  width: 46px;
-  height: 48px;
+  height: 50%;
+  width: 50%;
   background-image: url(../img/fb-icon.png);
   background-repeat: no-repeat;
   font-size: 0;
 }
 
 .button-youtube {
-  width: 46px;
-  height: 48px;
   background-image: url(../img/youtube.png);
   background-repeat: no-repeat;
   font-size: 0;
