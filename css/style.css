@@ -1,0 +1,52 @@
+body {
+  text-transform: uppercase;
+  color: #000000;
+
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+nav a {
+  font-size: 14px;
+}
+h1, h2 {
+  font-size: 21px;
+}
+p {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+b {
+  font-size: 21px;
+  color: #000000;
+}
+.realtown,
+.devil-bridge {
+  background-color: #81b3d2;
+  color: white;
+}
+.realtown p,
+.devil-bridge p {
+  color: white;
+}
+
+.benefits2 {
+  background-color: #eeeeee;
+}
+
+button.button-search {
+  background-color: #766357;
+  color: white;
+}
+
+button.calendar {
+  background-image: url(img/svg-sedona/calendar.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+}
