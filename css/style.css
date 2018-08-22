@@ -160,17 +160,11 @@ button.calendar {
 button.minus {
   width: 38px;
   height: 38px;
-  background-color: none;
-  background-image: url(../img/svg-sedona/minus.svg);
-  background-repeat: no-repeat;
 }
 
 button.plus {
   width: 38px;
   height: 38px;
-  background-color: none;
-  background-image: url(../img/svg-sedona/plus.svg);
-  background-repeat: no-repeat;
 }
 
 button.button-find {
@@ -225,12 +219,12 @@ button.button-find {
 }
 
 .benefits1-item--food {
-  background: url(../img/svg-sedona/icon-2.svg);
+  background: url(../img/svg-sedona/icon-3.svg);
   background-repeat: no-repeat;
 }
 
 .benefits1-item--souvenir {
-  background: url(../img/svg-sedona/icon-3.svg);
+  background: url(../img/svg-sedona/icon-2.svg);
   background-repeat: no-repeat;
 }
 
@@ -248,4 +242,26 @@ button.button-find {
 .visit {
   font-size: 21px;
   line-height: 26px;
+}
+
+.social-button li{
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+.social-button a{
+font-size: 0;
+}
+
+.button-twitter {
+  background-image: url(../img/twit-icon.png);
+}
+
+.button-facebook {
+  background-image: url(../img/fb-icon.png);
+}
+
+.button-youtube {
+background-image: url(../img/youtube.png);
 }
