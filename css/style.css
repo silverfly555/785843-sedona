@@ -1,5 +1,5 @@
 body {
-  font-family: ptsans, Arial, serif
+  font-family: "Gilroy", Arial, sans-serif;
   font-size: 14px;
   line-height: 26px;
   margin: 0;
@@ -61,13 +61,19 @@ nav ul,
   color: #000000;
 }
 
+ svg {
+  fill: gold;
+}
+
 .logo-footer a::after {
+  display: inline-block;
   content:"";
   position: absolute;
   width: 115px;
   height: 41px;
-  background-image: url(../img/logo-name.png);
+
   background-repeat: no-repeat;
+
   top: -10px;
   left: 110%;
 }
@@ -222,17 +228,41 @@ button.calendar:active {
   border: none;
 }
 
-button.minus {
+.minus {
+  box-sizing: border-box;
+  border: none;
   width: 38px;
   height: 38px;
+  font-size: 20px;
+  color: #a9a9a9;
 }
 
-button.plus {
+.minus:hover {
+  color: #000000;
+}
+
+.minus:active {
+  color: #81b3d2;
+}
+
+.plus {
+  box-sizing: border-box;
+  border: none;
   width: 38px;
   height: 38px;
+  font-size: 20px;
+  color: #a9a9a9;
 }
 
-button.button-find {
+.plus:hover {
+  color: #000000;
+}
+
+.plus:active {
+  color: #81b3d2;
+}
+
+.button-find {
   width: 458px;
   height: 58px;
   color: #ffffff;
@@ -242,11 +272,11 @@ button.button-find {
   line-height: 26px;
 }
 
-button.button-find:hover {
+.button-find:hover {
   background-color: #669ec0;
 }
 
-button.button-find:active {
+.button-find:active {
   color: #88b6d1;
   background-color: #5496bd;
 }
@@ -309,7 +339,7 @@ button.button-find:active {
 
 .button-find {
   width: 458px;
-  height: 411px;
+  height: 58px;
   color: white;
   background-color: #81b3d2;
 }
