@@ -52,8 +52,16 @@ nav ul,
   color: #000000;
 }
 
+.logo-footer svg {
+  position: absolute;
+  fill: #231f20;
+  width: 115px;
+  height: 41px;
+  left: 65px;
+  top: 4045px;
+}
+
 .logo-footer a {
-  position: relative;
   font-size: 14px;
   line-height: 26px;
   text-decoration: none;
@@ -61,37 +69,12 @@ nav ul,
   color: #000000;
 }
 
- svg {
-  fill: gold;
+.logo-footer svg:hover {
+  fill: #81b3d2;
 }
 
-.logo-footer a::after {
-  display: inline-block;
-  content:"";
-  position: absolute;
-  width: 115px;
-  height: 41px;
-
-  background-repeat: no-repeat;
-
-  top: -10px;
-  left: 110%;
-}
-
-.logo-footer a::after:hover {
-  content:"";
-  position: absolute;
-  width: 115px;
-  height: 41px;
-  background-image: url(../img/logo-name-blue.png);
-  background-repeat: no-repeat;
-  top: -10px;
-  left: 110%;
-}
-
-.logo-foot {
-  font-size: 14px;
-  line-height: 26px;
+.logo-footer svg:active {
+  fill: #bdbbbc;
 }
 
 .features-list h1 {
