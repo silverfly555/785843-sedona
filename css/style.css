@@ -52,21 +52,24 @@ nav ul,
   color: #000000;
 }
 
+
+
+.logo-footer a {
+  position: relative;
+  font-size: 14px;
+  line-height: 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+}
+
 .logo-footer svg {
   position: absolute;
   fill: #231f20;
   width: 115px;
   height: 41px;
   left: 65px;
-  top: 4045px;
-}
-
-.logo-footer a {
-  font-size: 14px;
-  line-height: 26px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000000;
+  bottom: -11px;
 }
 
 .logo-footer svg:hover {
