@@ -23,9 +23,8 @@ nav ul,
 .navigation {
   position: relative;
   display: flex;
-  border: 2px solid red;
+  outline: 2px solid red;
   justify-content: space-around;
-
 }
 
 
@@ -33,7 +32,7 @@ nav ul,
   display: flex;
   position: absolute;
   justify-content: center;
-  border: 2px solid yellow;
+  outline: 2px solid yellow;
   width: 244px;
 
 }
@@ -42,7 +41,7 @@ nav ul,
   display: flex;
   border: 2px solid green;
   justify-content: space-around;
-  border: 2px solid black;
+  outline: 2px solid black;
   margin: auto;
 
 }
@@ -50,7 +49,7 @@ nav ul,
 .navigation-info li {
   width: 239px;
   height: 56px;
-  border: 2px solid green;
+  outline: 2px solid green;
   justify-content: space-between;
   text-align: center;
 
