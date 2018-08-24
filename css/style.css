@@ -3,7 +3,14 @@ body {
   font-size: 14px;
   line-height: 26px;
   margin: 0;
+  width: 1200px;
   text-transform: uppercase;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
 nav ul,
@@ -13,7 +20,42 @@ nav ul,
   list-style: none;
 }
 
-.navigation a {
+.navigation {
+  position: relative;
+  display: flex;
+  border: 2px solid red;
+  justify-content: space-around;
+}
+
+
+.main-logo {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  border: 2px solid yellow;
+  width: 244px;
+  left: auto;
+  right: auto;
+}
+
+.navigation-info {
+  display: flex;
+  border: 2px solid green;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+
+.navigation-info li {
+  width: 239px;
+  height: 56px;
+  border: 2px solid green;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navigation-info a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
@@ -272,12 +314,6 @@ button.calendar:active {
   line-height: 26px;
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
 .benefits1 {
   display: flex;
   background: #0000;
@@ -387,9 +423,7 @@ button.calendar:active {
   display: flex;
 }
 
-.navigation {
-  display: flex;
-}
+
 /* Отсюда идет cтилизация inner.html */
 
 .search-inner {
@@ -539,6 +573,27 @@ button.calendar:active {
 .book:active {
   color: #857871;
   background-color: #503e33;
+}
+
+.star-amara {
+  background-image: url(../img/svg-sedona/star.svg);
+	width: 72px;
+	height: 17px;
+	background-repeat: space;
+}
+
+.star-desert {
+  background-image: url(../img/svg-sedona/star.svg);
+	width: 54px;
+	height: 17px;
+	background-repeat: space;
+}
+
+.star-villas {
+  background-image: url(../img/svg-sedona/star.svg);
+	width: 36px;
+	height: 17px;
+	background-repeat: space;
 }
 
 .rating-result {
