@@ -25,6 +25,7 @@ nav ul,
   display: flex;
   border: 2px solid red;
   justify-content: space-around;
+
 }
 
 
@@ -43,6 +44,7 @@ nav ul,
   border: 2px solid green;
   justify-content: space-around;
   border: 2px solid black;
+
 }
 
 .navigation-info li {
@@ -51,8 +53,7 @@ nav ul,
   border: 2px solid green;
   justify-content: space-between;
   text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
+  
 }
 
 .navigation-info a {
