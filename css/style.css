@@ -35,24 +35,28 @@ nav ul,
   margin: 0;
   outline: 2px solid yellow;
   width: 140px;
-  height: 72px;
+  min-height: 72px;
   left: 50%;
   margin-left:-70px;
 }
 
 .navigation-info {
   margin: 0;
-  border: 2px solid green;
   outline: 2px solid black;
+
 }
 
 .navigation-info li {
   display: inline-block;
   width: 239px;
-  height: 56px;
+  min-height: 56px;
   outline: 2px solid blue;
   text-align: center;
   padding-top: 15px;
+}
+
+.navigation-info ul {
+outline: 3px solid green;
 }
 
 .navigation-info li:nth-of-type(3) {
@@ -98,6 +102,17 @@ nav ul,
   color: #000000;
 }
 
+.main-footer {
+  display: flex;
+  width: 1200px;
+  outline: 2px solid red;
+}
+
+.social-button {
+  display: flex;
+  outline: 2px solid red;
+}
+
 .logo-footer a {
   position: relative;
   font-size: 14px;
@@ -122,12 +137,6 @@ nav ul,
 
 .logo-footer svg:active {
   fill: #bdbbbc;
-}
-
-.features-list h1 {
-  font-size: 21px;
-  line-height: 26px;
-  font-weight: bold;
 }
 
 .devil-bridge h2,
@@ -156,13 +165,6 @@ nav ul,
   font-size: 14px;
   line-height: 21px;
   color: #ffffff;
-}
-
-.features-list p {
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 26px;
-  color: #333333;
 }
 
 .search-hotel p {
@@ -199,11 +201,6 @@ nav ul,
   font-size: 14px;
   line-height: 21px;
   color: #333333;
-}
-
-.features-list {
-  width: 1200px;
-  text-align: center;
 }
 
 .realtown,
