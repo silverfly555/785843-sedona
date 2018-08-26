@@ -16,7 +16,6 @@ body {
 nav ul,
 .footer-social ul,
 .benefits2 ul,
-.benefits1 li,
 .navigation-info li,
 .navigation-info ul {
   list-style: none;
@@ -53,10 +52,6 @@ nav ul,
   outline: 2px solid blue;
   text-align: center;
   padding-top: 15px;
-}
-
-.navigation-info ul {
-outline: 3px solid green;
 }
 
 .navigation-info li:nth-of-type(3) {
@@ -105,7 +100,10 @@ outline: 3px solid green;
 .main-footer {
   display: flex;
   width: 1200px;
-  outline: 2px solid red;
+  min-height: 120px;
+  outline: 3px solid red;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .social-button {
@@ -176,6 +174,7 @@ outline: 3px solid green;
 .search-hotel strong {
   font-size: 30px;
   line-height: 36px;
+  padding-bottom: 28px;
 }
 .search-hotel {
   width: 1200px;
@@ -225,15 +224,15 @@ outline: 3px solid green;
 
 .benefits2 {
   width: 1200px;
+  min-height: 256px;
   background-color: #eeeeee;
-  outline: 2px solid pink;
+  margin-bottom: 55px;
 }
 
 .benefits2-list {
   display: flex;
   justify-content: space-around;
   text-align: center;
-
 }
 
 .benefits2-list h2 {
@@ -243,6 +242,8 @@ outline: 3px solid green;
 .benefits2-list li:last-child {
   padding-bottom: 50px;
 }
+
+
 
 button.button-search {
   width: 568px;
@@ -351,8 +352,13 @@ button.calendar:active {
 .benefits1-item {
   width: 33.333%;
   padding: 100px 10px 0;
-  text-align: center;
   position: relative;
+  outline: 3px solid yellow;
+}
+
+.benefits1 li {
+  text-align: center;
+  outline: 2px solid red;
 }
 
 .benefits1-item::after {
@@ -363,19 +369,20 @@ button.calendar:active {
   top: 0;
   left: 50%;
   transform:translateX(-50%);
+  outline: 2px solid green;
 }
 
-.benefits1-item--housing {
+.benefits1-item-housing {
   background: url(../img/svg-sedona/icon-1.svg);
   background-repeat: no-repeat;
 }
 
-.benefits1-item--food {
+.benefits1-item-food {
   background: url(../img/svg-sedona/icon-3.svg);
   background-repeat: no-repeat;
 }
 
-.benefits1-item--souvenir {
+.benefits1-item-souvenir {
   background: url(../img/svg-sedona/icon-2.svg);
   background-repeat: no-repeat;
 }
@@ -400,6 +407,11 @@ button.calendar:active {
   width: 46px;
   height: 48px;
   background-color: #81b3d2;
+  margin-right: 6px;
+}
+
+.social-button li:last-of-type{
+  margin-right: 0;
 }
 
 .social-button a {
@@ -446,11 +458,23 @@ button.calendar:active {
   background-image: url(../img/filter-background.jpg);
   background-repeat: no-repeat;
   width: 1200px;
-  height: 800px;
+  min-height: 220px;
   color: #ffffff;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 21px;
+}
+
+.search {
+  display: flex;
+}
+
+.sort-list {
+  display: flex;
+}
+
+.search-result {
+  display: flex;
 }
 
 .infrastructure legend,
