@@ -23,32 +23,34 @@ nav ul,
   padding: 0;
 }
 
+.navigation {
+  position: relative;
+  width: 1200px;
+}
+
 .main-logo {
   position: absolute;
   width: 140px;
   min-height: 72px;
   left: 50%;
-  margin-left: -140px;
+  margin-left: -70px;
   margin-top: -1px;
 }
 
 .navigation-info {
   display: flex;
   justify-content: space-between;
-  padding: 10px 73px;
+  padding: 15px 73px;
   width: 1200px;
   min-height: 56px;
-  outline: 2px solid black;
 }
 
 .navigation-info li:nth-of-type(1),
 .navigation-info li:nth-of-type(3) {
-  outline: 2px solid blue;
-  margin-right: 10px;
+  margin-right: 100px;
 }
 
-.navigation-info li:nth-of-type(2),{
-  outline: 2px solid green;
+.navigation-info li:nth-of-type(2){
   margin-right: auto;
 }
 
@@ -374,12 +376,11 @@ nav ul,
   width: 33.333%;
   padding: 100px 10px 0;
   position: relative;
-  outline: 3px solid yellow;
 }
 
 .benefits1 li {
   text-align: center;
-  outline: 2px solid red;
+
 }
 
 .benefits1-item::after {
@@ -390,20 +391,19 @@ nav ul,
   top: 0;
   left: 50%;
   transform:translateX(-50%);
-  outline: 2px solid green;
 }
 
-.benefits1-item-housing {
+.benefits1-item-housing::after {
   background: url(../img/svg-sedona/icon-1.svg);
   background-repeat: no-repeat;
 }
 
-.benefits1-item-food {
+.benefits1-item-food::after {
   background: url(../img/svg-sedona/icon-3.svg);
   background-repeat: no-repeat;
 }
 
-.benefits1-item-souvenir {
+.benefits1-item-souvenir::after {
   background: url(../img/svg-sedona/icon-2.svg);
   background-repeat: no-repeat;
 }
