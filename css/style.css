@@ -245,7 +245,8 @@ nav ul,
 
 
 
-button.button-search {
+.button-search {
+  position: relative;
   width: 568px;
   height: 86px;
   background-color: #766357;
@@ -255,16 +256,37 @@ button.button-search {
   line-height: 26px;
 }
 
-button.button-search:hover {
+.main-search{
+  width: 1200px;
+  position: relative;
+  outline: 3px solid yellow;
+
+}
+
+.popap-reserve {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: 2px solid red;
+  width: 568px;
+  min-height: 395px;
+  background-color: #ffffff;
+}
+
+.button-search:hover {
   background-color: #604e43;
 }
 
-button.button-search:active {
+.button-search:active {
   color: #857871;
   background-color: #503e33;
 }
 
-button.calendar {
+.calendar {
   background: transparent;
   background-image: url(../img/calendar.png);
   background-repeat: no-repeat;
@@ -274,11 +296,11 @@ button.calendar {
   border: none;
 }
 
-button.calendar:hover {
+.calendar:hover {
   background-image: url(../img/calendar-black.png);
 }
 
-button.calendar:active {
+.calendar:active {
   background-image: url(../img/calendar-blue.png);
 }
 
@@ -484,10 +506,9 @@ button.calendar:active {
   line-height: 21px;
 }
 
-.popap-reserve form {
-  outline: 2px solid red;
-  width: 568px;
-  min-height: 395px;
+.stabber {
+  width: 1200px;
+  padding: 0 auto;
 }
 
 .show {

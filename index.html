@@ -97,7 +97,6 @@
           </li>
         </ul>
       </section>
-
       <section class="search-hotel">
         <strong>Заинтересовались?</strong>
         <p>
@@ -106,40 +105,42 @@
         </p>
         <button class="button-search">Поиск гостиницы в седоне</button>
         <img src="img/map.jpg" alt="Карта">
-        <form action="https://echo.htmlacademy.ru" name="reserve" method="post">
-          <p>
-            <label for="date-arrival">дата заезда:</label>
-            <input type="date" name="date-ar" id="date-arrival">
-            <button class="calendar">
-            </button>
-          </p>
-          <p>
-            <label for="date-departure">дата выезда:</label>
-            <input type="date" name="date-de" id="date-departure">
-            <button class="calendar">
-            </button>
-          </p>
-          <p>
-            <label for="grownup">взрослые:</label>
-            <button class="minus" aria-label="уменьшить значение">
-              -            </button>
-            <input type="number" name="grown" id="grownup" value="2">
-            <button class="plus" aria-label="увеличить значение">
-              +
-            </button>
-          </p>
-          <p>
-            <label for="children">дети:</label>
-            <button class="minus" aria-label="уменьшить значение">
-              -
-            </button>
-            <input type="number" name="child" id="children">
-            <button class="plus" aria-label="увеличить значение">
-              +
-            </button>
-          </p>
-          <button class="button-find">найти</button>
-        </form>
+        <div class="stabber">
+          <form class="popap-reserve" action="https://echo.htmlacademy.ru" name="reserve" method="post">
+            <p>
+              <label for="date-arrival">дата заезда:</label>
+              <input type="date" name="date-ar" id="date-arrival">
+              <button class="calendar">
+              </button>
+            </p>
+            <p>
+              <label for="date-departure">дата выезда:</label>
+              <input type="date" name="date-de" id="date-departure">
+              <button class="calendar">
+              </button>
+            </p>
+            <p>
+              <label for="grownup">взрослые:</label>
+              <button class="minus" aria-label="уменьшить значение">
+                -            </button>
+              <input type="number" name="grown" id="grownup" value="2">
+              <button class="plus" aria-label="увеличить значение">
+                +
+              </button>
+            </p>
+            <p>
+              <label for="children">дети:</label>
+              <button class="minus" aria-label="уменьшить значение">
+                -
+              </button>
+              <input type="number" name="child" id="children">
+              <button class="plus" aria-label="увеличить значение">
+                +
+              </button>
+            </p>
+            <button class="button-find">найти</button>
+          </form>
+        </div>
       </section>
 
     </main>
