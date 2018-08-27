@@ -98,8 +98,6 @@ nav ul,
 }
 
 .main-footer {
-  position: absolute;
-  transform:translateY(-120px);
   display: flex;
   width: 1200px;
   min-height: 120px;
@@ -107,6 +105,11 @@ nav ul,
   justify-content: space-around;
   align-items: center;
   background-color: rgb(255,255,255,0.9)
+}
+
+.upfooter {
+  margin-top: -125px
+
 }
 
 .social-button {
