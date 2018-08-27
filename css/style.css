@@ -28,34 +28,27 @@ nav ul,
   width: 140px;
   min-height: 72px;
   left: 50%;
-  margin-left:-70px;
+  margin-left: -140px;
   margin-top: -1px;
 }
 
-.navigation {
-  position: relative;
-  outline: 2px solid red;
-  width: 1200px;
-}
-
 .navigation-info {
-  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 73px;
+  width: 1200px;
+  min-height: 56px;
   outline: 2px solid black;
+
 
 }
 
 .navigation-info li {
-  display: inline-block;
-  width: 239px;
-  min-height: 56px;
   outline: 2px solid blue;
-  text-align: center;
-  padding-top: 15px;
+  margin-right: 100px;
 }
 
-.navigation-info li:nth-of-type(3) {
-  margin-left: 228px;
-}
+
 
 .navigation-info a {
   text-decoration: none;
@@ -476,6 +469,11 @@ nav ul,
   background-repeat: no-repeat;
   background-position: 50% 50%;
   font-size: 0;
+}
+
+.grownup-number {
+  background-color: #f2f2f2;
+  outline: 2px solid red;
 }
 
 /* Отсюда идет cтилизация inner.html */
