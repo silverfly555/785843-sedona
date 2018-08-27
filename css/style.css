@@ -39,16 +39,18 @@ nav ul,
   width: 1200px;
   min-height: 56px;
   outline: 2px solid black;
-
-
 }
 
-.navigation-info li {
+.navigation-info li:nth-of-type(1),
+.navigation-info li:nth-of-type(3) {
   outline: 2px solid blue;
-  margin-right: 100px;
+  margin-right: 10px;
 }
 
-
+.navigation-info li:nth-of-type(2),{
+  outline: 2px solid green;
+  margin-right: auto;
+}
 
 .navigation-info a {
   text-decoration: none;
