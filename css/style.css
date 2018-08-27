@@ -23,20 +23,19 @@ nav ul,
   padding: 0;
 }
 
-.navigation {
-  position: relative;
-  outline: 2px solid red;
-  width: 1200px;
-}
-
 .main-logo {
   position: absolute;
-  margin: 0;
-  outline: 2px solid yellow;
   width: 140px;
   min-height: 72px;
   left: 50%;
   margin-left:-70px;
+  margin-top: -1px;
+}
+
+.navigation {
+  position: relative;
+  outline: 2px solid red;
+  width: 1200px;
 }
 
 .navigation-info {
@@ -98,10 +97,10 @@ nav ul,
 }
 
 .main-footer {
+  position: relative;
   display: flex;
   width: 1200px;
   min-height: 120px;
-  outline: 3px solid red;
   justify-content: space-around;
   align-items: center;
   background-color: rgb(255,255,255,0.9)
@@ -110,12 +109,11 @@ nav ul,
 
 .upfooter {
   margin-top: -125px
-  
+
 }
 
 .social-button {
   display: flex;
-  outline: 2px solid red;
 }
 
 .logo-footer a {
@@ -254,6 +252,7 @@ nav ul,
   width: 568px;
   height: 86px;
   background-color: #766357;
+  border: none;
   color: #ffffff;
   text-transform: uppercase;
   font-size: 21px;
@@ -263,8 +262,6 @@ nav ul,
 .main-search{
   position: relative;
   width: 1200px;
-  outline: 3px solid yellow;
-
 }
 
 .popap-reserve {
@@ -273,11 +270,11 @@ nav ul,
   align-items: center;
   justify-content: space-around;
   position: absolute;
+  margin: 0;
   top: 86px;
   left: 316px;
   font-weight: bold;
   text-transform: uppercase;
-  outline: 2px solid red;
   width: 568px;
   min-height: 395px;
   background-color: #ffffff;
@@ -349,6 +346,7 @@ nav ul,
   height: 58px;
   color: #ffffff;
   background-color: #81b3d2;
+  border: none;
   text-transform: uppercase;
   font-size: 21px;
   line-height: 26px;
