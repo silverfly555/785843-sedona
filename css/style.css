@@ -105,11 +105,12 @@ nav ul,
   justify-content: space-around;
   align-items: center;
   background-color: rgb(255,255,255,0.9)
+
 }
 
 .upfooter {
   margin-top: -125px
-
+  
 }
 
 .social-button {
@@ -249,8 +250,6 @@ nav ul,
   padding-bottom: 50px;
 }
 
-
-
 .button-search {
   width: 568px;
   height: 86px;
@@ -269,12 +268,13 @@ nav ul,
 }
 
 .popap-reserve {
-  position: absolute;
-  top: 86px;
-  left: 316px;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  position: absolute;
+  top: 86px;
+  left: 316px;
   font-weight: bold;
   text-transform: uppercase;
   outline: 2px solid red;
