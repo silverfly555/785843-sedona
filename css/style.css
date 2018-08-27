@@ -98,12 +98,15 @@ nav ul,
 }
 
 .main-footer {
+  position: absolute;
+  transform:translateY(-120px);
   display: flex;
   width: 1200px;
   min-height: 120px;
   outline: 3px solid red;
   justify-content: space-around;
   align-items: center;
+  background-color: rgb(255,255,255,0.9)
 }
 
 .social-button {
@@ -246,7 +249,6 @@ nav ul,
 
 
 .button-search {
-  position: relative;
   width: 568px;
   height: 86px;
   background-color: #766357;
@@ -257,15 +259,16 @@ nav ul,
 }
 
 .main-search{
-  width: 1200px;
   position: relative;
+  width: 1200px;
   outline: 3px solid yellow;
 
 }
 
 .popap-reserve {
   position: absolute;
-  display: flex;
+  top: 86px;
+  left: 316px;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
