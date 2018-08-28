@@ -201,20 +201,18 @@ nav ul,
 
 .realtown,
 .devil-bridge {
+  display: flex;
+  padding: 0;
+  margin: 0;
   width: 1200px;
   min-height: 256px;
   background-color: #81b3d2;
   color: white;
 }
 
-.realtown {
-  display: flex;
-  width: 1200px;
-}
-
 .realtown-img {
+  background-size: cover;
   margin-left: auto;
-  background-position: bottom;
 }
 
 .devil-bridge {
