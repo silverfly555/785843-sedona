@@ -184,21 +184,6 @@ nav ul,
   text-transform: uppercase;
   text-align: center;
 }
-
-.benefits1-item-title b {
-  text-transform: uppercase;
-  font-size: 21px;
-  line-height: 21px;
-  color: #000000;
-}
-
-.benefits1-description {
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 21px;
-  color: #333333;
-}
-
 .realtown,
 .devil-bridge {
   display: flex;
@@ -210,36 +195,77 @@ nav ul,
   color: white;
 }
 
-.realtown-text {
-  margin: 0;
-  padding: 0;
+.realtown-text,
+.devil-bridge-text {
+  margin-top: 45px;
   min-height: 256;
   width: 400px;
+  text-align: center;
 }
 
-.realtown-img {
+.realtown-img img,
+.devil-bridge img {
   display: block;
-  background-size: cover;
-  margin-left: auto;
-  min-height: 256;
-  width: 800px;
+}
+
+.benefits1-main {
+  width: 1200px;
+  min-height: 330px;
+  padding-top: 60px;
+  padding-left: 70px;
+  outline: 2px solid orange;
+}
+
+.benefits1-item-title b {
+  display: block;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  outline: 2px solid red;
+}
+
+.benefits1-description {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  outline: 2px solid pink;
+  text-align: center;
+  max-width: 320px;
+}
+
+.benefits1-item-title p {
+  margin: 0;
 }
 
 .benefits2 {
   width: 1200px;
   min-height: 256px;
   background-color: #eeeeee;
-  margin-bottom: 55px;
+  outline: 2px solid green;
+  margin: 0;
+  padding: 0;
 }
 
 .benefits2-list {
+
   display: flex;
   justify-content: space-around;
   text-align: center;
+
 }
 
 .benefits2-list h2 {
-  padding-top: 50px;
+  margin-top: 45px;
+  margin-bottom: 30px;
+  outline: 2px solid blue;
+}
+
+.benefits2-list p:first-of-type {
+  padding-bottom: 20px;
 }
 
 .benefits2-list li:last-child {
@@ -375,7 +401,10 @@ nav ul,
 
 .benefits1-item {
   width: 33.333%;
-  padding: 100px 10px 0;
+  padding-top: 100px;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
   position: relative;
 }
 
@@ -392,11 +421,15 @@ nav ul,
   top: 0;
   left: 50%;
   transform:translateX(-50%);
+
 }
+
+
 
 .benefits1-item-housing::after {
   background: url(../img/svg-sedona/icon-1.svg);
   background-repeat: no-repeat;
+  outline: 2px solid green;
 }
 
 .benefits1-item-food::after {
@@ -410,7 +443,10 @@ nav ul,
 }
 
 .benefits1-item-title {
-  margin: 0 0 40px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
   text-transform: uppercase;
 }
 
