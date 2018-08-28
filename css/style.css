@@ -202,6 +202,9 @@ nav ul,
   width: 400px;
   text-align: center;
 }
+.realtown-text h2 {
+  max-width: 45px;
+}
 
 .realtown-img img,
 .devil-bridge img {
@@ -228,6 +231,8 @@ nav ul,
 
 .benefits1-description {
   margin: 0;
+  margin-right: auto;
+  margin-left: auto;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 21px;
@@ -259,8 +264,11 @@ nav ul,
 }
 
 .benefits2-list h2 {
+  max-width: 141px;
   margin-top: 45px;
   margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
   outline: 2px solid blue;
 }
 
