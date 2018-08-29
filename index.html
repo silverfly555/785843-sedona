@@ -45,7 +45,7 @@
         <section class="realtown">
           <div class="town-text">
             <h2>настоящий городок</h2>
-            <p>— №1 —</p>
+            <p>&#8212; №1 &#8212;</p>
             <p>седона — не аттракцион для туристов,</p>
             <p>там течет своя жизнь</p>
           </div>
@@ -77,7 +77,7 @@
           </div>
           <div class="town-text">
             <h2>Там есть <br> мост дьявола</h2>
-            <p>— №2 —</p>
+            <p>&#8212; №2 &#8212;</p>
             <p>Да, по нему можно пройти! если конечно</p>
             <p>вы осмелитесь</p>
           </div>
@@ -86,45 +86,44 @@
           <ul class="benefits2-list">
             <li>
               <h2>Небольшая площадь</h2>
-              <p>— №3 —</p>
+              <p>&#8212; №3 &#8212;</p>
               <p>Все достопримечательности находятся очень близко</p>
             </li>
             <li>
               <h2>Красивая дорога</h2>
-              <p>— №4 —</p>
+              <p>&#8212; №4 &#8212;</p>
               <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
             </li>
             <li>
               <h2>мало туристов</h2>
-              <p>— №5 —</p>
-              <p>Большинство едет в гранд каньон и толпится там</p>
+              <p>&#8212; №5 &#8212;</p>
+              <p>Большинство едет в гранд каньон &#160;и толпится там</p>
             </li>
           </ul>
         </section>
         <section class="search-hotel">
-          <div class="center">
             <strong>Заинтересовались?</strong>
             <p>
               Укажите предполагаемые даты поездки, <br>
               и мы покажем вам лучшие предложения гостиницы в седоне
             </p>
+            <div class="form-search">
             <button class="button-search">Поиск гостиницы в седоне</button>
-          </div>
-          <form class="popap-reserve" action="https://echo.htmlacademy.ru" name="reserve" method="post">
+            <form class="popap-reserve" action="https://echo.htmlacademy.ru" name="reserve" method="post">
             <p>
-              <label for="date-arrival">дата заезда:</label>
+              <label class="gap" for="date-arrival">дата заезда:</label>
               <input class="date-ar" type="text" name="date-ar" id="date-arrival">
               <button class="calendar1">
               </button>
             </p>
             <p>
-              <label for="date-departure">дата выезда:</label>
+              <label class="gap" for="date-departure">дата выезда:</label>
               <input class="date-de" type="text" name="date-de" id="date-departure">
               <button class="calendar2">
               </button>
             </p>
             <p>
-              <label for="grownup">взрослые:</label>
+              <label class="gap" for="grownup">взрослые:</label>
               <button class="minus" aria-label="уменьшить значение">
                 -            </button>
             <input class="grownup-number" type="number" name="grown" id="grownup" value="2">
@@ -133,7 +132,7 @@
             </button>
           </p>
           <p>
-            <label for="children">дети:</label>
+            <label class="gap" for="children">дети:</label>
             <button class="minus" aria-label="уменьшить значение">
               -
             </button>
@@ -144,7 +143,10 @@
           </p>
           <button class="button-find">найти</button>
         </form>
+        </div>
+        <div class="map">
           <img src="img/map.jpg" alt="Карта">
+        </div>
         </section>
       </main>
       <footer class="main-footer upfooter">

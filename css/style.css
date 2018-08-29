@@ -260,6 +260,8 @@ margin-bottom: 46px;
 .search-hotel {
   width: 1200px;
   text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
 }
 .realtown,
 .devil-bridge {
@@ -354,19 +356,6 @@ margin-bottom: 46px;
   margin-right: auto;
 }
 
-.button-search {
-  position: relative;
-  padding: 0;
-  width: 568px;
-  height: 86px;
-  background-color: #766357;
-  border: none;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-size: 21px;
-  line-height: 26px;
-}
-
 .main-search{
   position: relative;
   width: 1200px;
@@ -381,8 +370,8 @@ margin-bottom: 46px;
 
 .calendar1 {
   position: absolute;
-  top: 28px;
-  right: 70px;
+  top: 63px;
+  right: 65px;
   background: transparent;
   background-image: url(../img/calendar.png);
   background-repeat: no-repeat;
@@ -400,8 +389,8 @@ margin-bottom: 46px;
 
 .calendar2 {
   position: absolute;
-  top: 110px;
-  right: 70px;
+  top: 130px;
+  right: 64px;
   background: transparent;
   background-image: url(../img/calendar.png);
   background-repeat: no-repeat;
@@ -409,18 +398,55 @@ margin-bottom: 46px;
   height: 22px;
   border: none;
 }
+.form-search{
+  position: relative;
+}
+
+.button-search {
+  padding: 30px 0;
+  max-width: 568px;
+  width: 100%;
+  background-color: #766357;
+  border: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 26px;
+  margin: 0 auto;
+}
 
 .popap-reserve {
+  display: flex;
+  flex-wrap: wrap;
   position: absolute;
   margin: 0;
   padding: 0;
-  padding-left: 58px;
-  width: 568px;
+  padding-left: 57px;
+  padding-right: 54px;
+  padding-top: 55px;
+  max-width: 568px;
+  width: 100%;
   left: 316px;
   font-weight: bold;
   text-transform: uppercase;
   background-color: #ffffff;
 }
+
+.popap-reserve p {
+  margin-bottom: 20px;
+}
+
+.gap {
+  padding-right: auto;
+}
+
+.date-ar,
+.date-de {
+  display: inline-block;
+  height: 37px;
+  margin-left: auto;
+}
+
 
 .button-search:hover {
   background-color: #604e43;
@@ -506,13 +532,6 @@ margin-bottom: 46px;
   line-height: 26px;
 }
 
-.center {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
 .benefits1 {
   display: flex;
   width: 1200px;
@@ -533,7 +552,6 @@ margin-bottom: 46px;
 
 .benefits1 li {
   text-align: center;
-
 }
 
 .benefits1-item::after {
@@ -544,10 +562,7 @@ margin-bottom: 46px;
   top: 0;
   left: 50%;
   transform:translateX(-50%);
-
 }
-
-
 
 .benefits1-item-housing::after {
   background: url(../img/svg-sedona/icon-1.svg);
@@ -565,10 +580,6 @@ margin-bottom: 46px;
 }
 
 .benefits1-item-title {
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
   text-transform: uppercase;
 }
 
