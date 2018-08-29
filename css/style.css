@@ -1,5 +1,5 @@
 body {
-  font-family: "PTSans", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 26px;
   margin: 0;
@@ -11,6 +11,44 @@ body {
 *::after,
 *::before {
   box-sizing: border-box;
+  margin: 0;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.welocome img {
+  margin: 0;
+}
+
+.welcome {
+  margin-bottom: 50px;
+}
+.main-info {
+  outline: 2px solid red;
+  margin: 0;
+  text-align: center;
+}
+
+.main-info h1 {
+  margin: 0;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: 450px;
+  margin-bottom: 30px;
+  outline: 2px solid red;
+}
+
+.main-info p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color:#333333;
 }
 
 nav ul,
@@ -40,17 +78,20 @@ nav ul,
 .navigation-info {
   display: flex;
   justify-content: space-between;
-  padding: 15px 73px;
+  padding-top:14px;
+  padding-bottom: 17px;
+  padding-left: 72px;
+  padding-right: 77px;
   width: 1200px;
-  min-height: 56px;
+
+}
+.navigation-info li {
+  margin: 0;
+  width: 24%;
+  max-width: 240px;
 }
 
-.navigation-info li:nth-of-type(1),
-.navigation-info li:nth-of-type(3) {
-  margin-right: 100px;
-}
-
-.navigation-info li:nth-of-type(2){
+.navigation-info li:nth-of-type(2) {
   margin-right: auto;
 }
 
@@ -61,6 +102,11 @@ nav ul,
   line-height: 26px;
   font-weight: bold;
   color: #000000;
+}
+
+.navigation-info li:nth-of-type(3),
+.navigation-info li:nth-of-type(4) {
+  text-align: right;
 }
 
 .navigation a:focus {
