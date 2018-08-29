@@ -27,7 +27,6 @@ body {
   margin-bottom: 49px;
 }
 .main-info {
-  outline: 2px solid red;
   margin: 0;
   text-align: center;
 }
@@ -41,7 +40,8 @@ body {
   max-width: 450px;
   text-align: center;
   margin-bottom: 27px;
-  outline: 2px solid red;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-info p {
@@ -55,13 +55,18 @@ body {
 
 nav ul,
 .footer-social ul,
-.benefits2 ul,
 .navigation-info li,
 .navigation-info ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
+.benefits2 ul {
+  list-style: none;
+  margin: 0;
+}
+
 
 .navigation {
   position: relative;
@@ -82,15 +87,14 @@ nav ul,
   justify-content: space-between;
   padding-top:14px;
   padding-bottom: 17px;
-  padding-left: 72px;
-  padding-right: 77px;
+  padding-left: 71px;
+  padding-right: 71px;
   width: 1200px;
 
 }
 .navigation-info li {
-  margin: 0;
-  width: 24%;
-  max-width: 240px;
+  width: 25%;
+  max-width: 245px;
 }
 
 .navigation-info li:nth-of-type(2) {
@@ -132,6 +136,23 @@ nav ul,
   color: #000000;
 }
 
+.section {
+  width: 100%;
+  max-width: 400px;
+
+}
+
+.main-footer {
+  position: relative;
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255,255,255,0.9);
+  padding-top: 35px;
+  padding-bottom: 37px;
+}
+
 .main-footer a {
   text-decoration: none;
   text-transform: uppercase;
@@ -141,20 +162,20 @@ nav ul,
   color: #000000;
 }
 
-.main-footer {
-  position: relative;
-  display: flex;
-  width: 1200px;
-  min-height: 120px;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(255,255,255,0.9)
+.visitsedona a{
+ /*padding-left: 133px;*/
+}
 
+.visitsedona {
+  text-align: center;
+}
+
+.logo-footer a{
+  padding-left: 101px;
 }
 
 .upfooter {
-  margin-top: -125px
-
+  margin-top: -127px;
 }
 
 .social-button {
@@ -175,7 +196,7 @@ nav ul,
   fill: #231f20;
   width: 115px;
   height: 41px;
-  left: 65px;
+  left: 184px;
   bottom: -11px;
 }
 
@@ -227,13 +248,14 @@ nav ul,
 }
 
 .search-hotel p:last-of-type {
-margin-bottom: 50px;
+margin-bottom: 46px;
 }
 
 .search-hotel strong {
+  display: block;
   font-size: 30px;
   line-height: 36px;
-  padding-bottom: 28px;
+  margin-bottom: 25px;
 }
 .search-hotel {
   width: 1200px;
@@ -245,7 +267,6 @@ margin-bottom: 50px;
   padding: 0;
   margin: 0;
   width: 1200px;
-  min-height: 256px;
   background-color: #81b3d2;
   color: white;
 }
@@ -297,37 +318,40 @@ margin-bottom: 50px;
 
 .benefits2 {
   width: 1200px;
-  min-height: 256px;
   background-color: #eeeeee;
   margin: 0;
-  padding: 0;
   margin-bottom: 50px;
 }
 
 .benefits2-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 0;
+  padding-top: 47px;
+  padding-bottom: 60px;
+}
 
+.benefits2-list li {
+  width: 34.333%;
+  max-width: 400px;
 }
 
 .benefits2-list h2 {
   max-width: 141px;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid blue;
+  margin-bottom: 24px;
 }
 
 .benefits2-list p:first-of-type {
   padding-bottom: 20px;
 }
 
-.benefits2-list li:last-child {
-  padding-bottom: 50px;
+.benefits2-list p {
+  max-width: 261px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-search {
@@ -351,7 +375,6 @@ margin-bottom: 50px;
 .date-ar {
   position: relative;
   width: 346px;
-  min-height: 38px;
   background-color: #f2f2f2;
   border: none;
 }
@@ -371,7 +394,6 @@ margin-bottom: 50px;
 .date-de {
   position: relative;
   width: 346px;
-  min-height: 38px;
   background-color: #f2f2f2;
   border: none;
 }
@@ -394,7 +416,6 @@ margin-bottom: 50px;
   padding: 0;
   padding-left: 58px;
   width: 568px;
-  min-height: 395px;
   left: 316px;
   font-weight: bold;
   text-transform: uppercase;
@@ -486,6 +507,7 @@ margin-bottom: 50px;
 }
 
 .center {
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -568,8 +590,12 @@ margin-bottom: 50px;
   margin-right: 6px;
 }
 
+.social-button li:first-of-type{
+  margin-left: auto;
+}
+
 .social-button li:last-of-type{
-  margin-right: 0;
+  margin-right: auto;
 }
 
 .social-button a {
@@ -616,7 +642,6 @@ margin-bottom: 50px;
   height: 38px;
   border: none;
   background-color: #f2f2f2;
-  outline: 2px solid red;
 }
 
 .child-number {
@@ -633,7 +658,6 @@ margin-bottom: 50px;
   background-image: url(../img/filter-background.jpg);
   background-repeat: no-repeat;
   width: 1200px;
-  min-height: 220px;
   color: #ffffff;
   text-transform: uppercase;
   font-size: 14px;
