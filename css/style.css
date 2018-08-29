@@ -447,7 +447,6 @@ margin-bottom: 46px;
   margin-left: auto;
 }
 
-
 .button-search:hover {
   background-color: #604e43;
 }
@@ -665,6 +664,10 @@ margin-bottom: 46px;
 
 /* Отсюда идет cтилизация inner.html */
 
+fieldset {
+   border:0 none;
+}
+
 .search-inner {
   background-image: url(../img/filter-background.jpg);
   background-repeat: no-repeat;
@@ -692,6 +695,14 @@ margin-bottom: 46px;
 .type-housing legend{
   font-size: 16px;
   line-height: 21px;
+}
+
+.infrastructure {
+  display: flex;
+}
+
+.type-housing{
+  display: flex;
 }
 
 .stabber {
