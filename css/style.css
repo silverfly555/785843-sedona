@@ -24,7 +24,7 @@ body {
 }
 
 .welcome {
-  margin-bottom: 50px;
+  margin-bottom: 49px;
 }
 .main-info {
   outline: 2px solid red;
@@ -39,7 +39,8 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   max-width: 450px;
-  margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 27px;
   outline: 2px solid red;
 }
 
@@ -49,6 +50,7 @@ body {
   line-height: 26px;
   text-transform: uppercase;
   color:#333333;
+  margin-bottom: 51px;
 }
 
 nav ul,
@@ -187,11 +189,15 @@ nav ul,
 
 .devil-bridge h2,
 .realtown h2 {
+  margin: 0;
   text-transform: uppercase;
   font-size: 21px;
   line-height: 21px;
   font-weight: bold;
   color: #ffffff;
+  padding: 0 100px;
+  padding-top: 47px;
+  padding-bottom: 26px;
 }
 
 .benefits2 h2 {
@@ -244,38 +250,33 @@ margin-bottom: 50px;
   color: white;
 }
 
-.realtown-text,
-.devil-bridge-text {
-  margin-top: 45px;
-  min-height: 256;
-  width: 400px;
+.town-text {
+  width: 100%;
+  max-width: 400px;
   text-align: center;
 }
-.realtown-text h2 {
-  max-width: 45px;
+
+.town-text p:first-of-type{
+  padding-bottom: 20px;
 }
 
-.realtown-img img,
-.devil-bridge img {
+.town-img img {
   display: block;
 }
 
 .benefits1-main {
   width: 1200px;
-  min-height: 330px;
   padding-top: 60px;
-  padding-left: 70px;
-  outline: 2px solid orange;
+  padding-bottom: 83px;
 }
 
 .benefits1-item-title b {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   text-transform: uppercase;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
-  outline: 2px solid red;
 }
 
 .benefits1-description {
@@ -286,9 +287,8 @@ margin-bottom: 50px;
   font-size: 14px;
   line-height: 21px;
   color: #333333;
-  outline: 2px solid pink;
   text-align: center;
-  max-width: 320px;
+  max-width: 306px;
 }
 
 .benefits1-item-title p {
@@ -299,7 +299,6 @@ margin-bottom: 50px;
   width: 1200px;
   min-height: 256px;
   background-color: #eeeeee;
-  outline: 2px solid green;
   margin: 0;
   padding: 0;
   margin-bottom: 50px;
@@ -309,12 +308,15 @@ margin-bottom: 50px;
   display: flex;
   justify-content: space-around;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 
 .benefits2-list h2 {
   max-width: 141px;
-  margin-top: 45px;
-  margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
   outline: 2px solid blue;
@@ -528,7 +530,6 @@ margin-bottom: 50px;
 .benefits1-item-housing::after {
   background: url(../img/svg-sedona/icon-1.svg);
   background-repeat: no-repeat;
-  outline: 2px solid green;
 }
 
 .benefits1-item-food::after {
