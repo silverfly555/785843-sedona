@@ -720,6 +720,12 @@ fieldset {
   padding: 0 auto;
 }
 
+input[name="min-price"],
+input[name="max-price"] {
+  background: transparent;
+  color: #ffffff;
+}
+
 .show {
   text-transform: uppercase;
   font-size: 14px;
