@@ -680,14 +680,21 @@ fieldset {
 
 .search {
   display: flex;
-}
-
-.sort-list {
-  display: flex;
+  padding-top: 26px;
+  padding-bottom: 54px;
+  padding-left: 63px;
+  padding-right: 16px;
 }
 
 .search-result {
   display: flex;
+  flex-wrap: wrap;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  border-top: 1px solid #cacaca;
+  border-bottom: 1px solid #cacaca;
 }
 
 .infrastructure legend,
@@ -705,6 +712,9 @@ fieldset {
   display: flex;
 }
 
+.price-day {
+  margin-left: auto;
+}
 .stabber {
   width: 1200px;
   padding: 0 auto;
@@ -729,15 +739,27 @@ fieldset {
   background: #ffffff;
 }
 
+.sort-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 57px;
+  padding-left: 61px;
+  padding-right: 65px;
+}
+
 .find {
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
+  margin-left: 10px;
 }
 
 .sort {
   font-size: 12px;
   line-height: 18px;
+  margin-left: 49px;
 }
 
 .price {
@@ -745,6 +767,7 @@ fieldset {
   line-height: 18px;
   color: #81b3d2;
   text-decoration: none;
+  margin-left: 40px;
 }
 
 .type {
@@ -753,6 +776,7 @@ fieldset {
   color: #cacaca;
   text-decoration: none;
   border-bottom: 1px dotted #81b3d2;
+  margin-left: 32px;
 }
 
 .rating {
@@ -761,6 +785,8 @@ fieldset {
   color: #cacaca;
   text-decoration: none;
   border-bottom: 1px dotted #81b3d2;
+  margin-left: 34px;
+  margin-right: auto;
 }
 
 .up {
