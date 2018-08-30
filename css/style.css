@@ -365,7 +365,8 @@ margin-bottom: 46px;
   background-color: #f2f2f2;
   border: none;
   width: 100%;
-  margin-left: 100px;
+  margin-left: 111px;
+  height: 37px;
 }
 
 .calendar1 {
@@ -378,18 +379,19 @@ margin-bottom: 46px;
   height: 38px;
   right: 0;
   top: 50%;
-  transform: translateY(50%);
+  transform: translateY(-50%);
   padding: 0;
   background-position: 50% 50%;
   cursor: pointer;
   z-index: 3;
 }
- 
+
 .date-de {
   background-color: #f2f2f2;
   border: none;
   width: 100%;
-  margin-left: 100px;
+  margin-left: 111px;
+  height: 37px;
 }
 
 .calendar2 {
@@ -402,7 +404,7 @@ margin-bottom: 46px;
   height: 38px;
   right: 0;
   top: 50%;
-  transform: translateY(50%);
+  transform: translateY(-50%);
   padding: 0;
   background-position: 50% 50%;
   cursor: pointer;
@@ -452,7 +454,7 @@ margin-bottom: 46px;
   display: flex;
   position: relative;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .gap {
@@ -462,9 +464,11 @@ margin-bottom: 46px;
   z-index: 2;
 }
 
-.date-ar {
-
+.popap-reserve p:nth-of-type(3),
+.popap-reserve p:nth-of-type(4) {
+  width: 50%;
 }
+
 
 .button-search:hover {
   background-color: #604e43;
@@ -493,6 +497,7 @@ margin-bottom: 46px;
   font-size: 20px;
   color: #a9a9a9;
   background-color: #f2f2f2;
+  margin-left: 111px;
 }
 
 .minus:hover {
