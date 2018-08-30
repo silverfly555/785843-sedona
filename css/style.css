@@ -863,6 +863,14 @@ fieldset {
   margin-left: 32px;
 }
 
+.type:hover {
+  color: #81b3d2;
+}
+
+.type:active {
+  color: #000000;
+}
+
 .rating {
   font-size: 12px;
   line-height: 18px;
@@ -871,6 +879,14 @@ fieldset {
   border-bottom: 1px dotted #81b3d2;
   margin-left: 34px;
   margin-right: auto;
+}
+
+.rating:hover {
+  color: #81b3d2;
+}
+
+.rating:active {
+  color: #000000;
 }
 
 .up {
@@ -896,7 +912,7 @@ fieldset {
   border: none;
   background-repeat: no-repeat;
   background-position: 50% 100%;
-  fill: #cacaca;
+  fill: #81b3d2;
 }
 
 .down:hover {
