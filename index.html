@@ -103,7 +103,7 @@
         </section>
         <section class="search-hotel">
             <strong>Заинтересовались?</strong>
-            <p>
+            <p class="lift">
               Укажите предполагаемые даты поездки, <br>
               и мы покажем вам лучшие предложения гостиницы в седоне
             </p>
@@ -112,32 +112,32 @@
             <form class="popap-reserve" action="https://echo.htmlacademy.ru" name="reserve" method="post">
             <p>
               <label class="gap" for="date-arrival">дата заезда:</label>
-              <input class="date-ar" type="text" name="date-ar" id="date-arrival">
+              <input class="date-ar" type="text" name="date-ar" id="date-arrival" value="24 апреля 2017">
               <button class="calendar1">
               </button>
             </p>
             <p>
               <label class="gap" for="date-departure">дата выезда:</label>
-              <input class="date-de" type="text" name="date-de" id="date-departure">
+              <input class="date-de" type="text" name="date-de" id="date-departure" value="4 июля 2017">
               <button class="calendar2">
               </button>
             </p>
             <p>
               <label class="gap" for="grownup">взрослые:</label>
               <button class="minus" aria-label="уменьшить значение">
-                &#8212;
+                -
                </button>
-               <input class="grownup-number" type="number" name="grown" id="grownup" value="2">
+               <input class="grownup-number" type="text" name="grown" id="grownup" value="2">
                <button class="plus" aria-label="увеличить значение">
                  +
                </button>
              </p>
              <p>
-            <label class="gap" for="children">дети:</label>
+            <label class="gap gapchildren" for="children">дети:</label>
             <button class="minus" aria-label="уменьшить значение">
               -
             </button>
-            <input class="child-number" type="number" name="child" id="children">
+            <input class="child-number" type="text" name="child" id="children" value="0">
             <button class="plus" aria-label="увеличить значение">
               +
             </button>

@@ -247,8 +247,9 @@ nav ul,
   color: #333333;
 }
 
-.search-hotel p:last-of-type {
-margin-bottom: 46px;
+.search-hotel p:nth-of-type(3),
+.search-hotel p:nth-of-type(4) {
+margin-bottom: 56px;
 }
 
 .search-hotel strong {
@@ -367,6 +368,9 @@ margin-bottom: 46px;
   width: 100%;
   margin-left: 111px;
   height: 37px;
+  font-weight: bold;
+  padding-left: 13px;
+  text-transform: uppercase;
 }
 
 .calendar1 {
@@ -392,6 +396,9 @@ margin-bottom: 46px;
   width: 100%;
   margin-left: 111px;
   height: 37px;
+  font-weight: bold;
+  padding-left: 13px;
+  text-transform: uppercase;
 }
 
 .calendar2 {
@@ -469,10 +476,14 @@ margin-bottom: 46px;
   width: 50%;
 }
 
-label[class="gap"]:last-child {
-  padding-left: 20px;
+.lift {
+  margin-bottom: 46px;
 }
 
+
+.gapchildren {
+  padding-left: 50px;
+}
 .button-search:hover {
   background-color: #604e43;
 }
@@ -497,10 +508,11 @@ label[class="gap"]:last-child {
   border: none;
   width: 38px;
   height: 38px;
-  font-size: 28px;
+  font-size: 25px;
   color: #a9a9a9;
   background-color: #f2f2f2;
   margin-left: 111px;
+  font-weight: bold;
 }
 
 .minus:hover {
@@ -516,9 +528,10 @@ label[class="gap"]:last-child {
   border: none;
   width: 38px;
   height: 38px;
-  font-size: 28px;
+  font-size: 25px;
   color: #a9a9a9;
   background-color: #f2f2f2;
+  font-weight: bold;
 }
 
 .plus:hover {
@@ -538,8 +551,8 @@ label[class="gap"]:last-child {
   font-size: 21px;
   line-height: 26px;
   margin-bottom: 55px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .button-find:hover {
@@ -671,6 +684,8 @@ label[class="gap"]:last-child {
   height: 38px;
   border: none;
   background-color: #f2f2f2;
+  text-align: center;
+  font-weight: bold;
 }
 
 .child-number {
@@ -679,6 +694,8 @@ label[class="gap"]:last-child {
   height: 38px;
   border: none;
   background-color: #f2f2f2;
+  text-align: center;
+  font-weight: bold;
 }
 
 /* Отсюда идет cтилизация inner.html */
