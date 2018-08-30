@@ -415,14 +415,19 @@ margin-bottom: 46px;
   margin: 0 auto;
 }
 
+.test {
+  margin-left: auto;
+}
+
 .popap-reserve {
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
   position: absolute;
   margin: 0;
   padding: 0;
   padding-left: 56px;
-  padding-right: 54px; 
+  padding-right: 54px;
   padding-top: 55px;
   max-width: 568px;
   width: 100%;
@@ -437,14 +442,15 @@ margin-bottom: 46px;
 }
 
 .gap {
-  padding-right: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
 }
 
-.date-ar,
-.date-de {
-  display: inline-block;
-  height: 37px;
-  margin-left: auto;
+.date-ar {
+  width: 100%;
+  margin-left: 100px;
 }
 
 .button-search:hover {
