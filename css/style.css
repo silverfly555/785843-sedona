@@ -681,7 +681,7 @@ fieldset {
 .search {
   display: flex;
   padding-top: 26px;
-  padding-bottom: 54px;
+  padding-bottom: 15px;
   padding-left: 63px;
   padding-right: 16px;
 }
@@ -689,10 +689,10 @@ fieldset {
 .search-result {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 0;
+  padding-top: 28px;
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: 0;
+  padding-bottom: 18px;
   border-top: 1px solid #cacaca;
   border-bottom: 1px solid #cacaca;
 }
@@ -720,10 +720,85 @@ fieldset {
   padding: 0 auto;
 }
 
-input[name="min-price"],
-input[name="max-price"] {
+.range-filter {
+  width: 240px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: ;
+}
+
+.range-controls {
+  position: relative;
+  height: 41px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
   background: transparent;
-  color: #ffffff;
+}
+
+.range-controls .scale {
+  height: 2px;
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  width: 70%;
+  height: 2px;
+  background: #00ca74;
+}
+
+.range-controls .toggle {
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  width: 4px;
+  height: 4px;
+  cursor: pointer;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  background: #ababab;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+
+.range-controls .toggle-min {
+  box-sizing: content-box;
+  top: 33px;
+  left: 50px;
+}
+
+.range-controls .toggle-max {
+  box-sizing: content-box;
+  top: 33px;
+  left: 110px;
+}
+
+.price-controls {
+  font-size: 0;
+}
+
+.price-controls label {
+  font-size: 16px;
+  display: inline-block;
+  width: 50%;
+}
+
+.max-price {
+  text-align: right;
+}
+
+.price-controls input {
+  font-size: 16px;
+  width: 60px;
+  margin-left: 10px;
+  padding: 8px 10px;
+  text-align: center;
+  color: #283136;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
 }
 
 .show {
@@ -734,6 +809,9 @@ input[name="max-price"] {
   border: 1px solid #ffffff;
   border-radius: 2px;
   background: transparent;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .show:hover {
   text-transform: uppercase;
@@ -876,6 +954,7 @@ input[name="max-price"] {
 	width: 72px;
 	height: 17px;
 	background-repeat: space;
+  margin-left: auto;
 }
 
 .star-desert {
@@ -883,6 +962,7 @@ input[name="max-price"] {
 	width: 54px;
 	height: 17px;
 	background-repeat: space;
+  margin-left: auto;
 }
 
 .star-villas {
@@ -890,6 +970,7 @@ input[name="max-price"] {
 	width: 36px;
 	height: 17px;
 	background-repeat: space;
+  margin-left: auto;
 }
 
 .rating-result {
