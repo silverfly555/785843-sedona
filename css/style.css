@@ -1003,9 +1003,11 @@ fieldset {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  align-content: flex-start;
   margin-left: auto;
   width: 115px;
   outline: 2px solid red;
+  margin-right: 10px;
 }
 
 .info-search p span {
@@ -1076,13 +1078,8 @@ fieldset {
 }
 
 .rating-result {
-  margin-top: auto;
-  width: 110px;
-  height: 27px;
   color: #666666;
   background-color: #f2f2f2;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .name-hotel {
