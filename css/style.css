@@ -722,15 +722,23 @@ fieldset {
   padding-right: 16px;
 }
 
+.main-search-result {
+  width: 1200px;
+}
+
 .search-result {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   padding-top: 29px;
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: 18px;
-  border-top: 1px solid #cacaca;
+  padding-bottom: 23px;
   border-bottom: 1px solid #cacaca;
+}
+
+.search-result:first-child {
+  border-top: 1px solid #cacaca;
 }
 
 .infrastructure legend,
@@ -965,7 +973,17 @@ fieldset {
   color: #696969;
 }
 
-.info-search  a {
+.info-search p:nth-of-type(1) {
+  width: 100%;
+  margin-bottom: 9px;
+}
+
+.info-search p:nth-of-type(2) {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.info-search a {
   text-align: center;
 }
 .search-result figure {
@@ -975,12 +993,11 @@ fieldset {
 .info-search {
   display: flex;
   flex-wrap: wrap;
-  align-content: space-between;
-  width: 256px;
+  align-content: flex-start;
   margin-left: 30px;
-  outline: 2px solid red
+  outline: 2px solid red;
+  max-width: 840px;
 }
-
 
 .info-search2{
   display: flex;
@@ -988,13 +1005,18 @@ fieldset {
   justify-content: flex-end;
   margin-left: auto;
   width: 115px;
-  outline: 2px solid red
+  outline: 2px solid red;
+}
+
+.info-search p span {
+  margin-left: 35px;
 }
 
 .detailed {
-  display: block;
-  width: 110px;
-  height: 27px;
+  padding-top: 4px;
+  padding-left: 15px;
+  padding-right: 17px;
+  padding-bottom: 5px;
   color: #ffffff;
   background-color: #81b3d2;
   text-decoration: none;
@@ -1010,9 +1032,11 @@ fieldset {
 }
 
 .book {
-  margin-left: auto;
-  width: 142px;
-  height: 27px;
+  padding-top: 4px;
+  padding-left: 15px;
+  padding-right: 17px;
+  padding-bottom: 5px;
+  margin-left: 6px;
   color: #ffffff;
   background-color: #766357;
   text-decoration: none;
@@ -1063,11 +1087,16 @@ fieldset {
 
 .name-hotel {
   font-size: 21px;
-  line-height: 26px;
+  line-height: 16px;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
   color: #000000;
+}
+
+.name-hotel a {
+  display: block;
+  margin-bottom: 30px;
 }
 
 .name-hotel:hover {
