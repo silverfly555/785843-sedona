@@ -1007,7 +1007,7 @@ fieldset {
   margin-left: auto;
   width: 115px;
   outline: 2px solid red;
-  margin-right: 10px;
+  margin-right: 71px;
 }
 
 .info-search p span {
@@ -1055,31 +1055,35 @@ fieldset {
 
 .star-amara {
   background-image: url(../img/svg-sedona/star.svg);
-	width: 72px;
+	width: 93px;
 	height: 17px;
 	background-repeat: space;
+  margin-bottom: 45px;
 
 }
 
 .star-desert {
   background-image: url(../img/svg-sedona/star.svg);
-	width: 54px;
+	width: 67px;
 	height: 17px;
 	background-repeat: space;
+  margin-bottom: 45px;
 
 }
 
 .star-villas {
   background-image: url(../img/svg-sedona/star.svg);
-	width: 36px;
+	width: 44px;
 	height: 17px;
 	background-repeat: space;
-
+  margin-bottom: 45px;
 }
 
 .rating-result {
   color: #666666;
   background-color: #f2f2f2;
+  width: 100%;
+  text-align: center;
 }
 
 .name-hotel {
