@@ -718,9 +718,9 @@ fieldset {
 .search {
   display: flex;
   padding-top: 26px;
-  padding-bottom: 40px;
-  padding-left: 63px;
+  padding-left: 72px;
   padding-right: 16px;
+  padding-bottom: 7px;
 }
 
 .main-search-result {
@@ -743,24 +743,46 @@ fieldset {
   border-top: 1px solid #cacaca;
 }
 
+.infrastructure,
+.type-housing,
+.price-day {
+  padding: 0;
+}
+
+.type-housing {
+  margin-left: 118px;
+}
+
 .infrastructure legend,
 .price-day legend,
 .type-housing legend{
   font-size: 16px;
   line-height: 21px;
   font-weight: bold;
+  margin-bottom: 25px;
 }
 
-.type-housing{
-  display: flex;
+.infrastructure label,
+.type-housing label {
+  margin-left: 24px;
+}
+
+.infrastructure p,
+.type-housing p {
+  margin-bottom: 25px;
 }
 
 .price-day {
-  margin-left: auto;
+  margin-left: 350px;
 }
 .stabber {
   width: 1200px;
   padding: 0 auto;
+}
+
+.min-price input {
+  margin: 0;
+  padding: 0;
 }
 
 .range-filter {
@@ -836,12 +858,10 @@ fieldset {
   font-size: 16px;
   width: 60px;
   margin-left: 10px;
-  padding: 8px 10px;
   text-align: center;
-  color: #283136;
+  background: transparent;
   border: none;
-  border-radius: 5px;
-  background: #f1f1f1;
+  color: #ffffff;
 }
 
 .show {
