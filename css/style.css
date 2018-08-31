@@ -762,6 +762,10 @@ fieldset {
   margin-bottom: 25px;
 }
 
+.price-day legend {
+  margin-bottom: 10px;
+}
+
 .infrastructure label,
 .type-housing label {
   margin-left: 24px;
@@ -862,6 +866,11 @@ fieldset {
   background: transparent;
   border: none;
   color: #ffffff;
+}
+
+.price-controls {
+  border: 2px solid #ffffff;
+  border-radius: 3px;
 }
 
 .show {
