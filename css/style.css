@@ -782,6 +782,9 @@ fieldset {
 }
 
 .price-day {
+  display: flex;
+  flex-wrap: wrap;
+  width: 317px;
   margin-left: 350px;
 }
 .stabber {
@@ -789,22 +792,35 @@ fieldset {
   padding: 0 auto;
 }
 
+.line {
+  width: 2px;
+  height: 21px;
+  background-color: #ffffff;
+}
+
 .min-price input {
   margin: 0;
   padding: 0;
 }
 
+.min-price {
+  padding-left: 62px;
+}
+
+.max-price {
+  padding-left: 51px;
+}
+
 .range-filter {
-  width: 240px;
+  width: 100%;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: ;
+  margin-bottom: 0;
 }
 
 .range-controls {
   position: relative;
-  margin-bottom: 15px;
   border-radius: 5px;
   background: transparent;
 }
@@ -812,6 +828,7 @@ fieldset {
 .range-controls .scale {
   height: 2px;
   background: #d7dcde;
+  margin-bottom: 32px;
 }
 
 .range-controls .bar {
@@ -835,45 +852,40 @@ fieldset {
 
 .range-controls .toggle-min {
   box-sizing: content-box;
-  top: 33px;
-  left: 50px;
+  top: -8px;
+  left: 252px;
 }
 
 .range-controls .toggle-max {
   box-sizing: content-box;
-  top: 33px;
-  left: 110px;
-}
-
-.price-controls {
-  font-size: 0;
-  margin-bottom: 10px;
-  width: 132%;
+  top: -8px;
+  left: 0;
 }
 
 .price-controls label {
-  font-size: 16px;
-  display: inline-block;
+  font-size: 14px;
   width: 50%;
-}
-
-.max-price {
-  text-align: right;
 }
 
 .price-controls input {
   font-size: 16px;
-  width: 60px;
-  margin-left: 10px;
-  text-align: center;
+  width: 50px;
+  margin-left: 3px;
+  text-align: left;
   background: transparent;
   border: none;
   color: #ffffff;
 }
 
 .price-controls {
+  display: flex;
   border: 2px solid #ffffff;
   border-radius: 3px;
+  font-size: 0;
+  width: 100%;
+  margin-bottom: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .show {
@@ -884,10 +896,10 @@ fieldset {
   border: 1px solid #ffffff;
   border-radius: 2px;
   background: transparent;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 6px 35px;
+  margin-left: 83px;
 }
+
 .show:hover {
   text-transform: uppercase;
   font-size: 14px;
