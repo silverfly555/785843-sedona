@@ -80,6 +80,7 @@ nav ul,
   left: 50%;
   margin-left: -70px;
   margin-top: -1px;
+  cursor: pointer;
 }
 
 .navigation-info {
@@ -730,6 +731,7 @@ fieldset {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
   padding-top: 29px;
   padding-left: 0;
   padding-right: 0;
@@ -746,10 +748,7 @@ fieldset {
 .type-housing legend{
   font-size: 16px;
   line-height: 21px;
-}
-
-.infrastructure {
-  display: flex;
+  font-weight: bold;
 }
 
 .type-housing{
@@ -940,6 +939,7 @@ fieldset {
   background-repeat: no-repeat;
   background-position: 50% 100%;
   fill: #cacaca;
+  cursor: pointer;
 }
 
 .up:hover {
@@ -957,6 +957,7 @@ fieldset {
   background-repeat: no-repeat;
   background-position: 50% 100%;
   fill: #81b3d2;
+  cursor: pointer;
 }
 
 .down:hover {
@@ -995,8 +996,7 @@ fieldset {
   flex-wrap: wrap;
   align-content: flex-start;
   margin-left: 30px;
-  outline: 2px solid red;
-  max-width: 840px;
+  max-width: 64%;
 }
 
 .info-search2{
@@ -1006,7 +1006,6 @@ fieldset {
   align-content: flex-start;
   margin-left: auto;
   width: 115px;
-  outline: 2px solid red;
   margin-right: 71px;
 }
 
