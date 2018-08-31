@@ -717,7 +717,7 @@ fieldset {
 .search {
   display: flex;
   padding-top: 26px;
-  padding-bottom: 15px;
+  padding-bottom: 40px;
   padding-left: 63px;
   padding-right: 16px;
 }
@@ -725,7 +725,7 @@ fieldset {
 .search-result {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 28px;
+  padding-top: 29px;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 18px;
@@ -864,7 +864,7 @@ fieldset {
   justify-content: space-between;
   align-items: center;
   padding-top: 30px;
-  padding-bottom: 57px;
+  padding-bottom: 30px;
   padding-left: 61px;
   padding-right: 65px;
 }
@@ -965,6 +965,32 @@ fieldset {
   color: #696969;
 }
 
+.info-search  a {
+  text-align: center;
+}
+.search-result figure {
+  margin-left: 72px;
+}
+
+.info-search {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 256px;
+  margin-left: 30px;
+  outline: 2px solid red
+}
+
+
+.info-search2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-left: auto;
+  width: 115px;
+  outline: 2px solid red
+}
+
 .detailed {
   display: block;
   width: 110px;
@@ -984,7 +1010,7 @@ fieldset {
 }
 
 .book {
-  display: block;
+  margin-left: auto;
   width: 142px;
   height: 27px;
   color: #ffffff;
@@ -1006,7 +1032,7 @@ fieldset {
 	width: 72px;
 	height: 17px;
 	background-repeat: space;
-  margin-left: auto;
+
 }
 
 .star-desert {
@@ -1014,7 +1040,7 @@ fieldset {
 	width: 54px;
 	height: 17px;
 	background-repeat: space;
-  margin-left: auto;
+
 }
 
 .star-villas {
@@ -1022,10 +1048,11 @@ fieldset {
 	width: 36px;
 	height: 17px;
 	background-repeat: space;
-  margin-left: auto;
+
 }
 
 .rating-result {
+  margin-top: auto;
   width: 110px;
   height: 27px;
   color: #666666;
