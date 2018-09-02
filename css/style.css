@@ -774,7 +774,7 @@ fieldset {
 
 .infrastructure input,
 .type-housing input {
-  display: none;
+  /*display: none;*/
 }
 
 .infrastructure {
@@ -811,6 +811,16 @@ fieldset {
   background-repeat: no-repeat;
 }
 
+.infrastructure input[type="checkbox"]:checked + .infrastructure label::before {
+  content:"";
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  top: -3px;
+  left: 0;
+  background: url(../img/svg-sedona/checkbox-on.svg);
+  background-repeat: no-repeat;
+}
 
 .price-day {
   display: flex;
