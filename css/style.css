@@ -720,8 +720,8 @@ fieldset {
   justify-content: flex-start;
   flex-wrap: wrap;
   align-content: stretch;
-
   padding-top: 26px;
+  padding-bottom: 7px;
 }
 
 .main-search-result {
@@ -767,19 +767,50 @@ fieldset {
   margin-bottom: 10px;
 }
 
-.infrastructure label,
-.type-housing label {
-  margin-left: 24px;
-}
-
 .infrastructure p,
 .type-housing p {
   margin-bottom: 25px;
 }
 
+.infrastructure input,
+.type-housing input {
+  display: none;
+}
+
 .infrastructure {
   margin-left: 72px;
 }
+
+.infrastructure label,
+.type-housing label {
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.infrastructure label::before {
+  content:"";
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  top: -3px;
+  left: 0;
+  background: url(../img/svg-sedona/checkbox-off.svg);
+  background-repeat: no-repeat;
+  outline: 3px solid red;
+}
+
+.type-housing label::before {
+  content:"";
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  top: -3px;
+  left: 0;
+  background: url(../img/svg-sedona/checkbox-off.svg);
+  background-repeat: no-repeat;
+}
+
 
 .price-day {
   display: flex;
