@@ -140,7 +140,6 @@ nav ul,
 .section {
   width: 100%;
   max-width: 400px;
-
 }
 
 .main-footer {
@@ -163,16 +162,8 @@ nav ul,
   color: #000000;
 }
 
-.visitsedona a{
- /*padding-left: 133px;*/
-}
-
 .visitsedona {
   text-align: center;
-}
-
-.logo-footer a{
-  padding-left: 101px;
 }
 
 .upfooter {
@@ -190,6 +181,8 @@ nav ul,
   text-decoration: none;
   text-transform: uppercase;
   color: #000000;
+  padding-left: 101px;
+  font-weight: normal;
 }
 
 .logo-footer svg {
