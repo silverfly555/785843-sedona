@@ -822,6 +822,13 @@ fieldset {
   background-repeat: no-repeat;
 }
 
+.infrastructure input[type="checkbox"]:focus + label::before,
+.type-housing input[type="checkbox"]:focus + label::before {
+  border-color: #663d15;
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
 .price-day {
   display: flex;
   flex-wrap: wrap;
@@ -889,6 +896,11 @@ fieldset {
   border-radius: 50%;
   background: #ababab;
   box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+
+.range-controls .toggle-min:focus,
+.range-controls .toggle-max:focus {
+  transform: scaleX(1);
 }
 
 .range-controls .toggle-min {
@@ -1041,7 +1053,7 @@ fieldset {
   border: none;
   background-repeat: no-repeat;
   background-position: 50% 100%;
-  fill: #81b3d2;
+  fill: #cacaca;
   cursor: pointer;
 }
 
@@ -1052,6 +1064,11 @@ fieldset {
 .down:active {
   fill: #81b3d2;
 }
+
+.active {
+  fill: #81b3d2;
+}
+
 
 .info-search p {
   font-size: 14px;
