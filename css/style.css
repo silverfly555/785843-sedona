@@ -898,9 +898,10 @@ fieldset {
   box-shadow: 0 2px 1px 0 #cfcfcf;
 }
 
-.range-controls .toggle-min:focus,
-.range-controls .toggle-max:focus {
-  transform: scaleX(1);
+.range-controls .toggle-min:hover,
+.range-controls .toggle-max:hover {
+  transform: scale(1.1, 1.1);
+
 }
 
 .range-controls .toggle-min {
