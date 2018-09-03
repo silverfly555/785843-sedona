@@ -894,7 +894,6 @@ fieldset {
 .range-controls .toggle-min:hover,
 .range-controls .toggle-max:hover {
   transform: scale(1.1, 1.1);
-
 }
 
 .range-controls .toggle-min {
@@ -1063,7 +1062,6 @@ fieldset {
   fill: #81b3d2;
 }
 
-
 .info-search p {
   font-size: 14px;
   line-height: 21px;
@@ -1154,7 +1152,6 @@ fieldset {
 	height: 17px;
 	background-repeat: space;
   margin-bottom: 45px;
-
 }
 
 .star-desert {
@@ -1163,7 +1160,6 @@ fieldset {
 	height: 17px;
 	background-repeat: space;
   margin-bottom: 45px;
-
 }
 
 .star-villas {
