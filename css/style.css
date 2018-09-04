@@ -3,8 +3,11 @@ body {
   font-size: 14px;
   line-height: 26px;
   margin: 0;
-  min-width: 1200px;
+  min-width: 1280px;
   text-transform: uppercase;
+  background-color: #f2f2f2;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 *,
@@ -17,6 +20,8 @@ body {
 .wrapper {
   width: 1200px;
   margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 4px 0 12px #e4e4e4,  -4px 0 12px #e4e4e4;
 }
 
 .welocome img {
@@ -327,6 +332,7 @@ margin-bottom: 56px;
   padding: 0;
   padding-top: 47px;
   padding-bottom: 60px;
+  background-color: #ffffff;
 }
 
 .benefits2-list li {
