@@ -13,7 +13,8 @@ body {
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
 }
 
@@ -21,7 +22,8 @@ body {
   width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
-  box-shadow: 4px 0 12px #e4e4e4,  -4px 0 12px #e4e4e4;
+  -webkit-box-shadow: 4px 0 12px #e4e4e4,  -4px 0 12px #e4e4e4;
+          box-shadow: 4px 0 12px #e4e4e4,  -4px 0 12px #e4e4e4;
 }
 
 .welocome img {
@@ -89,8 +91,12 @@ nav ul,
 }
 
 .navigation-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top:14px;
   padding-bottom: 17px;
   padding-left: 71px;
@@ -149,10 +155,16 @@ nav ul,
 
 .main-footer {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 1200px;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: rgb(255,255,255,0.9);
   padding-top: 35px;
   padding-bottom: 37px;
@@ -176,6 +188,8 @@ nav ul,
 }
 
 .social-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -265,6 +279,8 @@ margin-bottom: 56px;
 }
 .realtown,
 .devil-bridge {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 0;
   margin: 0;
@@ -326,8 +342,12 @@ margin-bottom: 56px;
 }
 
 .benefits2-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-align: center;
   padding: 0;
   padding-top: 47px;
@@ -383,7 +403,9 @@ margin-bottom: 56px;
   height: 38px;
   right: 0;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
   padding: 0;
   background-position: 50% 50%;
   cursor: pointer;
@@ -423,7 +445,9 @@ margin-bottom: 56px;
   height: 38px;
   right: 0;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
   padding: 0;
   background-position: 50% 50%;
   cursor: pointer;
@@ -452,9 +476,13 @@ margin-bottom: 56px;
 }
 
 .popap-reserve {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
   position: absolute;
   margin: 0;
   padding: 0;
@@ -467,10 +495,13 @@ margin-bottom: 56px;
   font-weight: bold;
   text-transform: uppercase;
   background-color: #ffffff;
-  box-shadow: -1px 7px 43px -12px #585858;
+  -webkit-box-shadow: -1px 7px 43px -12px #585858;
+          box-shadow: -1px 7px 43px -12px #585858;
 }
 
 .popap-reserve p {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   width: 100%;
@@ -480,7 +511,9 @@ margin-bottom: 56px;
 .gap {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
   z-index: 2;
 }
 
@@ -517,7 +550,8 @@ margin-bottom: 56px;
 }
 
 .minus {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border: none;
   width: 38px;
   height: 38px;
@@ -538,7 +572,8 @@ margin-bottom: 56px;
 }
 
 .plus {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border: none;
   width: 38px;
   height: 38px;
@@ -586,6 +621,8 @@ margin-bottom: 56px;
 }
 
 .benefits1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 1200px;
   background: #0000;
@@ -614,7 +651,9 @@ margin-bottom: 56px;
   position: absolute;
   top: 0;
   left: 50%;
-  transform:translateX(-50%);
+  -webkit-transform:translateX(-50%);
+      -ms-transform:translateX(-50%);
+          transform:translateX(-50%);
 }
 
 .benefits1-item-housing::after {
@@ -731,10 +770,16 @@ fieldset {
 }
 
 .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-content: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
   padding-top: 26px;
   padding-bottom: 7px;
 }
@@ -744,10 +789,17 @@ fieldset {
 }
 
 .search-result {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding-top: 29px;
   padding-left: 0;
   padding-right: 0;
@@ -876,8 +928,11 @@ fieldset {
 }
 
 .price-day {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 317px;
   margin-left: 350px;
 }
@@ -941,22 +996,27 @@ fieldset {
   border: 8px solid #fff;
   border-radius: 50%;
   background: #ababab;
-  box-shadow: 0 2px 1px 0 #cfcfcf;
+  -webkit-box-shadow: 0 2px 1px 0 #cfcfcf;
+          box-shadow: 0 2px 1px 0 #cfcfcf;
 }
 
 .range-controls .toggle-min:hover,
 .range-controls .toggle-max:hover {
-  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
 }
 
 .range-controls .toggle-min {
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   top: -8px;
   left: 252px;
 }
 
 .range-controls .toggle-max {
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   top: -8px;
   left: 0;
 }
@@ -977,6 +1037,8 @@ fieldset {
 }
 
 .price-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   border: 2px solid #ffffff;
   border-radius: 3px;
@@ -1010,9 +1072,15 @@ fieldset {
 }
 
 .sort-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 61px;
@@ -1139,18 +1207,28 @@ fieldset {
 }
 
 .info-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
   margin-left: 30px;
   max-width: 64%;
 }
 
 .info-search2{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
   margin-left: auto;
   width: 115px;
   margin-right: 71px;
