@@ -401,6 +401,18 @@ margin-bottom: 56px;
   text-transform: uppercase;
 }
 
+.date-ar:hover,
+.date-de:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+.date-ar:focus,
+.date-de:focus {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
 .calendar2 {
   background: transparent;
   background-image: url(../img/calendar.png);
@@ -455,6 +467,7 @@ margin-bottom: 56px;
   font-weight: bold;
   text-transform: uppercase;
   background-color: #ffffff;
+  box-shadow: -1px 7px 43px -12px #585858;
 }
 
 .popap-reserve p {
@@ -513,6 +526,7 @@ margin-bottom: 56px;
   background-color: #f2f2f2;
   margin-left: 111px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .minus:hover {
@@ -532,6 +546,7 @@ margin-bottom: 56px;
   color: #a9a9a9;
   background-color: #f2f2f2;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .plus:hover {
@@ -553,6 +568,7 @@ margin-bottom: 56px;
   margin-bottom: 55px;
   padding-top: 15px;
   padding-bottom: 15px;
+  cursor: pointer;
 }
 
 .button-find:hover {
@@ -818,6 +834,37 @@ fieldset {
   top: -3px;
   left: 0;
   background: url(../img/svg-sedona/checkbox-on.svg);
+  background-repeat: no-repeat;
+}
+
+.infrastructure input[type="checkbox"]:focus + label::before,
+.type-housing input[type="checkbox"]:focus + label::before {
+  border-color: #663d15;
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.infrastructure input[type="checkbox"]:disabled + label::before,
+.type-housing input[type="checkbox"]:disabled + label::before {
+  content:"";
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  top: -3px;
+  left: 0;
+  background: url(../img/svg-sedona/checkbox-off-disabled.svg);
+  background-repeat: no-repeat;
+}
+
+.infrastructure input[type="checkbox"]:checked:disabled + label::before,
+.type-housing input[type="checkbox"]:checked:disabled + label::before {
+  content:"";
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  top: -3px;
+  left: 0;
+  background: url(../img/svg-sedona/checkbox-on-disabled.svg);
   background-repeat: no-repeat;
 }
 
