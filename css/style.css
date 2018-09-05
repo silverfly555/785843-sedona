@@ -857,14 +857,19 @@ fieldset {
   margin-left: 72px;
 }
 
-.infrastructure label,
-.type-housing label {
+.forbel {
   position: relative;
   padding-left: 40px;
   cursor: pointer;
 }
 
-.infrastructure label::before {
+/*.fordis:focus + label::before {
+  border-color: #663d15;
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}*/
+
+.fordis + label::before {
   content:"";
   position: absolute;
   width: 30px;
@@ -875,65 +880,16 @@ fieldset {
   background-repeat: no-repeat;
 }
 
-.type-housing label::before {
-  content:"";
-  position: absolute;
-  width: 30px;
-  height: 25px;
-  top: -3px;
-  left: 0;
-  background: url(../img/svg-sedona/checkbox-off.svg);
-  background-repeat: no-repeat;
-}
-
-.infrastructure input[type="checkbox"]:disabled + label::before,
-.type-housing input[type="checkbox"]:disabled + label::before {
-  content:"";
-  position: absolute;
-  width: 30px;
-  height: 25px;
-  top: -3px;
-  left: 0;
-  background: url(../img/svg-sedona/checkbox-off-disabled.svg);
-  background-repeat: no-repeat;
-}
-
-.infrastructure input[type="checkbox"]:checked:disabled + label::before,
-.type-housing input[type="checkbox"]:checked:disabled + label::before {
-  content:"";
-  position: absolute;
-  width: 30px;
-  height: 25px;
-  top: -3px;
-  left: 0;
-  background: url(../img/svg-sedona/checkbox-on-disabled.svg);
-  background-repeat: no-repeat;
-}
-
-.infrastructure input[type="checkbox"]:checked + label::before,
-.type-housing input[type="checkbox"]:checked + label::before {
-  content:"";
-  position: absolute;
-  width: 30px;
-  height: 25px;
-  top: -3px;
-  left: 0;
+.fordis:checked + label::before {
   background: url(../img/svg-sedona/checkbox-on.svg);
-  background-repeat: no-repeat;
 }
 
-.infrastructure input[type="checkbox"]:focus + label::before,
-.type-housing input[type="checkbox"]:focus + label::before {
-  border-color: #663d15;
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+.fordis:checked:disabled + label::before {
+  background: url(../img/svg-sedona/checkbox-on-disabled.svg);
 }
 
-.infrastructure input[type="checkbox"]:focus + label::before,
-.type-housing input[type="checkbox"]:focus + label::before {
-  border-color: #663d15;
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+.fordis:disabled + label::before {
+  background: url(../img/svg-sedona/checkbox-off-disabled.svg);
 }
 
 .price-day {
