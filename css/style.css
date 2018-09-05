@@ -433,6 +433,7 @@ margin-bottom: 56px;
 .date-de:focus {
   background-color: #ffffff;
   cursor: pointer;
+  border: 2px solid #ebebeb;
 }
 
 .calendar2 {
