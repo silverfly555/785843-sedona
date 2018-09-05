@@ -882,14 +882,17 @@ fieldset {
 
 .fordis:checked + label::before {
   background: url(../img/svg-sedona/checkbox-on.svg);
+  background-repeat: no-repeat;
 }
 
 .fordis:checked:disabled + label::before {
   background: url(../img/svg-sedona/checkbox-on-disabled.svg);
+  background-repeat: no-repeat;
 }
 
 .fordis:disabled + label::before {
   background: url(../img/svg-sedona/checkbox-off-disabled.svg);
+  background-repeat: no-repeat;
 }
 
 .price-day {
