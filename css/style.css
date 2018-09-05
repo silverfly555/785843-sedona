@@ -18,11 +18,11 @@ body {
   margin: 0;
 }
 
-input[type=text]::-ms-clear {
+input[type="text"]::-ms-clear {
   display: none; width : 0; height: 0;
 }
 
-input[type=text]::-ms-reveal {
+input[type="text"]::-ms-reveal {
   display: none; width : 0; height: 0;
 }
 
@@ -864,8 +864,26 @@ fieldset {
   cursor: pointer;
 }
 
-label::before {
-  display: block;
+.infrastructure label::before {
+  content:"";
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  top: -3px;
+  left: 0;
+  background: url(../img/svg-sedona/checkbox-off.svg);
+  background-repeat: no-repeat;
+}
+
+.type-housing label::before {
+  content:"";
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  top: -3px;
+  left: 0;
+  background: url(../img/svg-sedona/checkbox-off.svg);
+  background-repeat: no-repeat;
 }
 
 .infrastructure input[type="checkbox"]:disabled + label::before,
@@ -889,28 +907,6 @@ label::before {
   top: -3px;
   left: 0;
   background: url(../img/svg-sedona/checkbox-on-disabled.svg);
-  background-repeat: no-repeat;
-}
-
-.infrastructure label::before {
-  content:"";
-  position: absolute;
-  width: 30px;
-  height: 25px;
-  top: -3px;
-  left: 0;
-  background: url(../img/svg-sedona/checkbox-off.svg);
-  background-repeat: no-repeat;
-}
-
-.type-housing label::before {
-  content:"";
-  position: absolute;
-  width: 30px;
-  height: 25px;
-  top: -3px;
-  left: 0;
-  background: url(../img/svg-sedona/checkbox-off.svg);
   background-repeat: no-repeat;
 }
 
