@@ -857,17 +857,17 @@ fieldset {
   margin-left: 72px;
 }
 
-.forbel {
-  position: relative;
-  padding-left: 40px;
-  cursor: pointer;
-}
-
 /*.fordis:focus + label::before {
   border-color: #663d15;
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
 }*/
+
+.forbel {
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
 
 .fordis + label::before {
   content:"";
@@ -885,13 +885,13 @@ fieldset {
   background-repeat: no-repeat;
 }
 
-.fordis:checked:disabled + label::before {
-  background: url(../img/svg-sedona/checkbox-on-disabled.svg);
+.fordis:disabled + label::before {
+  background: url(../img/svg-sedona/checkbox-off-disabled.svg);
   background-repeat: no-repeat;
 }
 
-.fordis:disabled + label::before {
-  background: url(../img/svg-sedona/checkbox-off-disabled.svg);
+.fordis:checked:disabled + label::before {
+  background: url(../img/svg-sedona/checkbox-on-disabled.svg);
   background-repeat: no-repeat;
 }
 
