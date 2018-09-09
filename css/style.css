@@ -485,7 +485,6 @@ margin-bottom: 56px;
 }
 
 .popup-reserve {
-  display: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -508,10 +507,6 @@ margin-bottom: 56px;
   -webkit-box-shadow: -1px 7px 43px -12px #585858;
           box-shadow: -1px 7px 43px -12px #585858;
 }
-
-/*form.popup-reserve {
-  display: none;
-}*/
 
 .modal {
   display: none;
