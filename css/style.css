@@ -485,6 +485,7 @@ margin-bottom: 56px;
 }
 
 .popap-reserve {
+  display: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
