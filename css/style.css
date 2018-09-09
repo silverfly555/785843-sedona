@@ -484,7 +484,7 @@ margin-bottom: 56px;
   margin-left: auto;
 }
 
-.popap-reserve {
+.popup-reserve {
   display: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -509,7 +509,19 @@ margin-bottom: 56px;
           box-shadow: -1px 7px 43px -12px #585858;
 }
 
-.popap-reserve p {
+/*form.popup-reserve {
+  display: none;
+}*/
+
+.modal {
+  display: none;
+}
+
+.modal-show {
+  display: block;
+}
+
+.popup-reserve p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -527,8 +539,8 @@ margin-bottom: 56px;
   z-index: 2;
 }
 
-.popap-reserve p:nth-of-type(3),
-.popap-reserve p:nth-of-type(4) {
+.popup-reserve p:nth-of-type(3),
+.popup-reserve p:nth-of-type(4) {
   width: 50%;
 }
 
