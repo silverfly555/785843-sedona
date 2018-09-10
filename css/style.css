@@ -526,7 +526,7 @@ margin-bottom: 56px;
 }
 
 .modal-show {
-  display: block;
+  display: flex;
   animation: bounce 0.6s;
 }
 
