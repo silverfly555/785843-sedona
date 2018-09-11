@@ -519,6 +519,7 @@ margin-bottom: 56px;
   background-color: #ffffff;
   -webkit-box-shadow: -1px 7px 43px -12px #585858;
           box-shadow: -1px 7px 43px -12px #585858;
+  z-index: 1;
 }
 
 .modal {
@@ -530,12 +531,24 @@ margin-bottom: 56px;
   animation: bounce 0.6s;
 }
 
+.modal-show-blocke {
+  display: block;
+}
+
 .modal-error {
   animation: shake 0.6s;
 }
 
-.map {
-  
+.main-map {
+  position: relative;
+}
+
+.popup-map {
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  margin-left: -280px;
+  z-index: 2;
 }
 
 .popup-reserve p {
