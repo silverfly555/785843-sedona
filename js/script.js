@@ -1,4 +1,3 @@
-
   var link = document.querySelector(".button-search");
   var popup = document.querySelector("form.popup-reserve");
   var mapLink = document.querySelector(".map");
