@@ -12,11 +12,10 @@
 
   if (popup) {
   popup.classList.add("modal");
-
-  mapLink.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    console.log("Клик по карте");
-    mapPopup.classList.toggle("modal-show-blocke");
+  link.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  console.log("Клик по кнопке");
+  popup.classList.toggle("modal-show");
   });}
 
   if (up && down) {
