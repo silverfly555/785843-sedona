@@ -7,7 +7,8 @@
   var down = document.querySelector(".down");
 
   if (mapPopup) {
-  mapPopup.classList.remove("modal");}
+  mapPopup.classList.remove("modal");
+  }
 
   if (popup) {
   popup.classList.add("modal");
