@@ -6,14 +6,11 @@
   var up = document.querySelector(".up");
   var down = document.querySelector(".down");
 
+  if (mapPopup) {
+  mapPopup.classList.remove("modal");}
+
   if (popup) {
   popup.classList.add("modal");
-
-  link.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    console.log("Клик по кнопке");
-    popup.classList.toggle("modal-show");
-  });
 
   mapLink.addEventListener("click", function (evt) {
     evt.preventDefault();
